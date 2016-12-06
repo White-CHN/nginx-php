@@ -1,2 +1,2 @@
 # nginx-php
-nginx+php
+nginx-php

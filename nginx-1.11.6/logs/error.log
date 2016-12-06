@@ -1,0 +1,1320 @@
+2016/12/05 18:33:24 [error] 36632#37764: *1 CreateFile() "D:\nginx-1.11.6/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/06 10:40:56 [emerg] 10432#9368: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 10:40:56 [emerg] 10432#9368: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 10:40:56 [emerg] 10432#9368: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 10:41:49 [emerg] 12688#12780: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 10:41:49 [emerg] 12688#12780: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 10:41:49 [emerg] 12688#12780: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 10:53:36 [emerg] 6532#5412: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 10:53:36 [emerg] 6532#5412: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 10:53:36 [emerg] 6532#5412: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 10:56:21 [emerg] 7232#3012: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 10:56:21 [emerg] 7232#3012: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 10:56:21 [emerg] 7232#3012: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2016/12/06 11:00:58 [notice] 7500#2572: using the "select" event method
+2016/12/06 11:00:58 [notice] 7500#2572: using the "select" event method
+2016/12/06 11:00:58 [notice] 7500#2572: nginx/1.11.6
+2016/12/06 11:00:58 [notice] 7500#2572: nginx/1.11.6
+2016/12/06 11:00:58 [info] 7500#2572: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:00:58 [notice] 7500#2572: start worker processes
+2016/12/06 11:00:58 [notice] 7500#2572: start worker processes
+2016/12/06 11:00:58 [notice] 7500#2572: start worker process 4888
+2016/12/06 11:00:58 [notice] 7500#2572: start worker process 4888
+2016/12/06 11:00:58 [notice] 4888#6620: nginx/1.11.6
+2016/12/06 11:00:58 [notice] 4888#6620: nginx/1.11.6
+2016/12/06 11:00:58 [info] 4888#6620: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:00:58 [notice] 4888#6620: create thread 4132
+2016/12/06 11:00:58 [notice] 4888#6620: create thread 4132
+2016/12/06 11:00:58 [notice] 4888#6620: create thread 3716
+2016/12/06 11:00:58 [notice] 4888#6620: create thread 3716
+2016/12/06 11:00:58 [notice] 4888#6620: create thread 3720
+2016/12/06 11:00:58 [notice] 4888#6620: create thread 3720
+2016/12/06 11:01:21 [info] 4888#4132: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:17:56 [info] 4888#4132: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:17:56 [info] 4888#4132: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:17:56 [info] 4888#4132: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:18:49 [info] 4888#4132: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:21:43 [info] 4888#4132: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:21:43 [info] 4888#4132: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:26:33 [info] 4888#4132: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:26:33 [info] 4888#4132: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:29:02 [notice] 7500#2572: worker process 4888 exited with code 1
+2016/12/06 11:29:02 [notice] 7500#2572: worker process 4888 exited with code 1
+2016/12/06 11:29:02 [notice] 7500#2572: start worker process 8852
+2016/12/06 11:29:02 [notice] 7500#2572: start worker process 8852
+2016/12/06 11:29:02 [notice] 8852#8548: nginx/1.11.6
+2016/12/06 11:29:02 [notice] 8852#8548: nginx/1.11.6
+2016/12/06 11:29:02 [info] 8852#8548: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:29:02 [notice] 8852#8548: create thread 10132
+2016/12/06 11:29:02 [notice] 8852#8548: create thread 10132
+2016/12/06 11:29:02 [notice] 8852#8548: create thread 10020
+2016/12/06 11:29:02 [notice] 8852#8548: create thread 10020
+2016/12/06 11:29:02 [notice] 8852#8548: create thread 10120
+2016/12/06 11:29:02 [notice] 8852#8548: create thread 10120
+2016/12/06 11:29:13 [crit] 8852#10132: *15 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:29:13 [crit] 8852#10132: *15 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:29:13 [crit] 8852#10132: *15 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:29:37 [info] 8852#10132: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:29:37 [info] 8852#10132: *17 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:32:22 [notice] 10836#10840: signal process started
+2016/12/06 11:32:22 [notice] 7500#2572: exiting
+2016/12/06 11:32:22 [notice] 7500#2572: exiting
+2016/12/06 11:32:22 [notice] 8852#8548: gracefully shutting down
+2016/12/06 11:32:22 [notice] 8852#8548: gracefully shutting down
+2016/12/06 11:32:22 [notice] 8852#10020: exiting
+2016/12/06 11:32:22 [notice] 8852#10020: exiting
+2016/12/06 11:32:22 [notice] 8852#10132: exiting
+2016/12/06 11:32:22 [notice] 8852#10132: exiting
+2016/12/06 11:32:22 [notice] 8852#8548: exit
+2016/12/06 11:32:22 [notice] 8852#8548: exit
+2016/12/06 11:32:22 [notice] 7500#2572: worker process 8852 exited with code 0
+2016/12/06 11:32:22 [notice] 7500#2572: worker process 8852 exited with code 0
+2016/12/06 11:32:22 [notice] 7500#2572: exit
+2016/12/06 11:32:22 [notice] 7500#2572: exit
+2016/12/06 11:32:38 [notice] 10920#10924: using the "select" event method
+2016/12/06 11:32:38 [notice] 10920#10924: using the "select" event method
+2016/12/06 11:32:38 [notice] 10920#10924: nginx/1.11.6
+2016/12/06 11:32:38 [notice] 10920#10924: nginx/1.11.6
+2016/12/06 11:32:38 [info] 10920#10924: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:32:38 [notice] 10920#10924: start worker processes
+2016/12/06 11:32:38 [notice] 10920#10924: start worker processes
+2016/12/06 11:32:38 [notice] 10920#10924: start worker process 10948
+2016/12/06 11:32:38 [notice] 10920#10924: start worker process 10948
+2016/12/06 11:32:38 [notice] 10948#10952: nginx/1.11.6
+2016/12/06 11:32:38 [notice] 10948#10952: nginx/1.11.6
+2016/12/06 11:32:38 [info] 10948#10952: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:32:38 [notice] 10948#10952: create thread 10972
+2016/12/06 11:32:38 [notice] 10948#10952: create thread 10972
+2016/12/06 11:32:38 [notice] 10948#10952: create thread 10976
+2016/12/06 11:32:38 [notice] 10948#10952: create thread 10976
+2016/12/06 11:32:38 [notice] 10948#10952: create thread 10980
+2016/12/06 11:32:38 [notice] 10948#10952: create thread 10980
+2016/12/06 11:32:42 [crit] 10948#10972: *1 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:32:42 [crit] 10948#10972: *1 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:32:42 [crit] 10948#10972: *1 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:33:12 [info] 10948#10972: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:33:12 [info] 10948#10972: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:34:11 [notice] 6684#5976: using the "select" event method
+2016/12/06 11:34:11 [notice] 6684#5976: using the "select" event method
+2016/12/06 11:34:11 [notice] 6684#5976: nginx/1.11.6
+2016/12/06 11:34:11 [notice] 6684#5976: nginx/1.11.6
+2016/12/06 11:34:11 [info] 6684#5976: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:34:11 [notice] 6684#5976: start worker processes
+2016/12/06 11:34:11 [notice] 6684#5976: start worker processes
+2016/12/06 11:34:11 [notice] 6684#5976: start worker process 5304
+2016/12/06 11:34:11 [notice] 6684#5976: start worker process 5304
+2016/12/06 11:34:11 [notice] 5304#7864: nginx/1.11.6
+2016/12/06 11:34:11 [notice] 5304#7864: nginx/1.11.6
+2016/12/06 11:34:11 [info] 5304#7864: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:34:11 [notice] 5304#7864: create thread 9804
+2016/12/06 11:34:11 [notice] 5304#7864: create thread 9804
+2016/12/06 11:34:11 [notice] 5304#7864: create thread 10620
+2016/12/06 11:34:11 [notice] 5304#7864: create thread 10620
+2016/12/06 11:34:11 [notice] 5304#7864: create thread 10616
+2016/12/06 11:34:11 [notice] 5304#7864: create thread 10616
+2016/12/06 11:34:15 [crit] 10948#10972: *4 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:34:15 [crit] 10948#10972: *4 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:34:15 [crit] 10948#10972: *4 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:34:25 [info] 10948#10972: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:34:25 [info] 10948#10972: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:34:28 [notice] 3716#6620: signal process started
+2016/12/06 11:34:28 [notice] 6684#5976: reconfiguring
+2016/12/06 11:34:28 [notice] 6684#5976: reconfiguring
+2016/12/06 11:34:28 [notice] 6684#5976: using the "select" event method
+2016/12/06 11:34:28 [notice] 6684#5976: using the "select" event method
+2016/12/06 11:34:28 [notice] 6684#5976: start worker processes
+2016/12/06 11:34:28 [notice] 6684#5976: start worker processes
+2016/12/06 11:34:28 [notice] 6684#5976: start worker process 10652
+2016/12/06 11:34:28 [notice] 6684#5976: start worker process 10652
+2016/12/06 11:34:28 [notice] 10652#5000: nginx/1.11.6
+2016/12/06 11:34:28 [notice] 10652#5000: nginx/1.11.6
+2016/12/06 11:34:28 [info] 10652#5000: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:34:28 [notice] 5304#7864: gracefully shutting down
+2016/12/06 11:34:28 [notice] 5304#7864: gracefully shutting down
+2016/12/06 11:34:28 [notice] 10652#5000: create thread 10052
+2016/12/06 11:34:28 [notice] 10652#5000: create thread 10052
+2016/12/06 11:34:28 [notice] 5304#10620: exiting
+2016/12/06 11:34:28 [notice] 5304#10620: exiting
+2016/12/06 11:34:28 [notice] 10652#5000: create thread 9876
+2016/12/06 11:34:28 [notice] 10652#5000: create thread 9876
+2016/12/06 11:34:28 [notice] 10652#5000: create thread 9652
+2016/12/06 11:34:28 [notice] 10652#5000: create thread 9652
+2016/12/06 11:34:28 [notice] 5304#9804: exiting
+2016/12/06 11:34:28 [notice] 5304#9804: exiting
+2016/12/06 11:34:28 [notice] 5304#7864: exit
+2016/12/06 11:34:28 [notice] 5304#7864: exit
+2016/12/06 11:34:28 [notice] 6684#5976: worker process 5304 exited with code 0
+2016/12/06 11:34:28 [notice] 6684#5976: worker process 5304 exited with code 0
+2016/12/06 11:34:30 [crit] 10948#10972: *7 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:34:30 [crit] 10948#10972: *7 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:34:30 [crit] 10948#10972: *7 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:34:46 [info] 10948#10972: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:34:46 [info] 10948#10972: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:35:17 [notice] 7220#10184: signal process started
+2016/12/06 11:35:17 [notice] 6684#5976: exiting
+2016/12/06 11:35:17 [notice] 6684#5976: exiting
+2016/12/06 11:35:17 [notice] 10652#5000: gracefully shutting down
+2016/12/06 11:35:17 [notice] 10652#5000: gracefully shutting down
+2016/12/06 11:35:17 [notice] 10652#9876: exiting
+2016/12/06 11:35:17 [notice] 10652#9876: exiting
+2016/12/06 11:35:17 [notice] 10652#10052: exiting
+2016/12/06 11:35:17 [notice] 10652#10052: exiting
+2016/12/06 11:35:17 [notice] 10652#5000: exit
+2016/12/06 11:35:17 [notice] 10652#5000: exit
+2016/12/06 11:35:17 [notice] 6684#5976: worker process 10652 exited with code 0
+2016/12/06 11:35:17 [notice] 6684#5976: worker process 10652 exited with code 0
+2016/12/06 11:35:17 [notice] 6684#5976: exit
+2016/12/06 11:35:17 [notice] 6684#5976: exit
+2016/12/06 11:36:12 [crit] 10948#10972: *10 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:12 [crit] 10948#10972: *10 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:12 [crit] 10948#10972: *10 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:17 [crit] 10948#10972: *11 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:17 [crit] 10948#10972: *11 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:17 [crit] 10948#10972: *11 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:19 [crit] 10948#10972: *12 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:19 [crit] 10948#10972: *12 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:19 [crit] 10948#10972: *12 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:19 [crit] 10948#10972: *13 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:19 [crit] 10948#10972: *13 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:19 [crit] 10948#10972: *13 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:20 [crit] 10948#10972: *14 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:20 [crit] 10948#10972: *14 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:20 [crit] 10948#10972: *14 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:20 [crit] 10948#10972: *15 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:20 [crit] 10948#10972: *15 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:20 [crit] 10948#10972: *15 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:20 [crit] 10948#10972: *16 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:20 [crit] 10948#10972: *16 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:20 [crit] 10948#10972: *16 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:21 [crit] 10948#10972: *17 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:21 [crit] 10948#10972: *17 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:21 [crit] 10948#10972: *17 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:25 [crit] 10948#10972: *18 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:25 [crit] 10948#10972: *18 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:25 [crit] 10948#10972: *18 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:36:48 [info] 10948#10972: *19 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:37:45 [notice] 10096#10496: signal process started
+2016/12/06 11:37:45 [error] 10096#10496: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 11:38:20 [crit] 10948#10972: *20 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:38:20 [crit] 10948#10972: *20 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:38:20 [crit] 10948#10972: *20 GetFileAttributesEx() "D:
+ginx+php\html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 11:39:00 [notice] 8848#9352: using the "select" event method
+2016/12/06 11:39:00 [notice] 8848#9352: using the "select" event method
+2016/12/06 11:39:00 [notice] 8848#9352: nginx/1.11.6
+2016/12/06 11:39:00 [notice] 8848#9352: nginx/1.11.6
+2016/12/06 11:39:00 [info] 8848#9352: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:39:00 [notice] 8848#9352: start worker processes
+2016/12/06 11:39:00 [notice] 8848#9352: start worker processes
+2016/12/06 11:39:00 [notice] 8848#9352: start worker process 9852
+2016/12/06 11:39:00 [notice] 8848#9352: start worker process 9852
+2016/12/06 11:39:00 [notice] 9852#9776: nginx/1.11.6
+2016/12/06 11:39:00 [notice] 9852#9776: nginx/1.11.6
+2016/12/06 11:39:00 [info] 9852#9776: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:39:00 [notice] 9852#9776: create thread 7888
+2016/12/06 11:39:00 [notice] 9852#9776: create thread 7888
+2016/12/06 11:39:00 [notice] 9852#9776: create thread 10812
+2016/12/06 11:39:00 [notice] 9852#9776: create thread 10812
+2016/12/06 11:39:00 [notice] 9852#9776: create thread 10788
+2016/12/06 11:39:00 [notice] 9852#9776: create thread 10788
+2016/12/06 11:39:13 [info] 9852#7888: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:39:34 [info] 9852#7888: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:39:50 [error] 9852#7888: *4 CreateFile() "D:/nginx+php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/info.php"
+2016/12/06 11:39:50 [error] 9852#7888: *4 CreateFile() "D:/nginx+php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/info.php"
+2016/12/06 11:39:50 [error] 9852#7888: *4 CreateFile() "D:/nginx+php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/info.php"
+2016/12/06 11:40:24 [info] 9852#7888: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:40:24 [info] 9852#7888: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:40:24 [info] 9852#7888: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:48:47 [notice] 9056#10340: signal process started
+2016/12/06 11:48:47 [notice] 8848#9352: reconfiguring
+2016/12/06 11:48:47 [notice] 8848#9352: reconfiguring
+2016/12/06 11:48:47 [notice] 8848#9352: using the "select" event method
+2016/12/06 11:48:47 [notice] 8848#9352: using the "select" event method
+2016/12/06 11:48:47 [notice] 8848#9352: start worker processes
+2016/12/06 11:48:47 [notice] 8848#9352: start worker processes
+2016/12/06 11:48:47 [notice] 8848#9352: start worker process 10944
+2016/12/06 11:48:47 [notice] 8848#9352: start worker process 10944
+2016/12/06 11:48:47 [notice] 10944#10072: nginx/1.11.6
+2016/12/06 11:48:47 [notice] 10944#10072: nginx/1.11.6
+2016/12/06 11:48:47 [info] 10944#10072: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:48:47 [notice] 10944#10072: create thread 7808
+2016/12/06 11:48:47 [notice] 10944#10072: create thread 7808
+2016/12/06 11:48:47 [notice] 9852#9776: gracefully shutting down
+2016/12/06 11:48:47 [notice] 9852#9776: gracefully shutting down
+2016/12/06 11:48:47 [notice] 9852#10812: exiting
+2016/12/06 11:48:47 [notice] 10944#10072: create thread 9784
+2016/12/06 11:48:47 [notice] 9852#10812: exiting
+2016/12/06 11:48:47 [notice] 10944#10072: create thread 9784
+2016/12/06 11:48:47 [notice] 10944#10072: create thread 7372
+2016/12/06 11:48:47 [notice] 10944#10072: create thread 7372
+2016/12/06 11:48:47 [notice] 9852#7888: exiting
+2016/12/06 11:48:47 [notice] 9852#7888: exiting
+2016/12/06 11:48:47 [notice] 9852#9776: exit
+2016/12/06 11:48:47 [notice] 9852#9776: exit
+2016/12/06 11:48:47 [notice] 8848#9352: worker process 9852 exited with code 0
+2016/12/06 11:48:47 [notice] 8848#9352: worker process 9852 exited with code 0
+2016/12/06 11:50:22 [info] 10944#7808: *23 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:50:22 [info] 10944#7808: *25 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:50:48 [info] 10944#7808: *28 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:50:48 [info] 10944#7808: *22 client prematurely closed connection, so upstream connection is closed too while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 11:51:08 [info] 10944#7808: *30 client prematurely closed connection, so upstream connection is closed too while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 11:51:34 [info] 10944#7808: *34 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:52:22 [error] 10944#7808: *32 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 11:52:22 [error] 10944#7808: *32 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 11:52:22 [error] 10944#7808: *32 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 11:53:01 [info] 10944#7808: *32 client prematurely closed connection, so upstream connection is closed too while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 11:53:15 [info] 10944#7808: *39 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:54:25 [info] 10944#7808: *41 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:55:10 [info] 10944#7808: *45 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:55:24 [info] 10944#7808: *47 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:55:39 [info] 10944#7808: *50 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:56:24 [error] 10944#7808: *36 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 11:56:24 [error] 10944#7808: *36 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 11:56:24 [error] 10944#7808: *36 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 11:58:02 [notice] 11204#7188: signal process started
+2016/12/06 11:58:02 [notice] 8848#9352: exiting
+2016/12/06 11:58:02 [notice] 8848#9352: exiting
+2016/12/06 11:58:02 [notice] 10944#10072: gracefully shutting down
+2016/12/06 11:58:02 [notice] 10944#10072: gracefully shutting down
+2016/12/06 11:58:02 [notice] 10944#9784: exiting
+2016/12/06 11:58:02 [notice] 10944#9784: exiting
+2016/12/06 11:58:02 [notice] 10944#7808: exiting
+2016/12/06 11:58:02 [notice] 10944#7808: exiting
+2016/12/06 11:58:02 [notice] 10944#10072: exit
+2016/12/06 11:58:02 [notice] 10944#10072: exit
+2016/12/06 11:58:02 [notice] 8848#9352: worker process 10944 exited with code 0
+2016/12/06 11:58:02 [notice] 8848#9352: worker process 10944 exited with code 0
+2016/12/06 11:58:02 [notice] 8848#9352: exit
+2016/12/06 11:58:02 [notice] 8848#9352: exit
+2016/12/06 11:58:31 [notice] 6640#11168: using the "select" event method
+2016/12/06 11:58:31 [notice] 6640#11168: using the "select" event method
+2016/12/06 11:58:31 [notice] 6640#11168: nginx/1.11.6
+2016/12/06 11:58:31 [notice] 6640#11168: nginx/1.11.6
+2016/12/06 11:58:31 [info] 6640#11168: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:58:31 [notice] 6640#11168: start worker processes
+2016/12/06 11:58:31 [notice] 6640#11168: start worker processes
+2016/12/06 11:58:31 [notice] 6640#11168: start worker process 10564
+2016/12/06 11:58:31 [notice] 6640#11168: start worker process 10564
+2016/12/06 11:58:31 [notice] 10564#11260: nginx/1.11.6
+2016/12/06 11:58:31 [notice] 10564#11260: nginx/1.11.6
+2016/12/06 11:58:31 [info] 10564#11260: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 11:58:31 [notice] 10564#11260: create thread 10292
+2016/12/06 11:58:31 [notice] 10564#11260: create thread 10292
+2016/12/06 11:58:31 [notice] 10564#11260: create thread 10628
+2016/12/06 11:58:31 [notice] 10564#11260: create thread 10628
+2016/12/06 11:58:31 [notice] 10564#11260: create thread 9568
+2016/12/06 11:58:31 [notice] 10564#11260: create thread 9568
+2016/12/06 11:58:46 [info] 10564#10292: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:58:46 [info] 10564#10292: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:59:58 [info] 10564#10292: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 11:59:58 [info] 10564#10292: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 12:00:48 [notice] 10812#6660: signal process started
+2016/12/06 12:00:48 [notice] 6640#11168: exiting
+2016/12/06 12:00:48 [notice] 6640#11168: exiting
+2016/12/06 12:00:48 [notice] 10564#11260: gracefully shutting down
+2016/12/06 12:00:48 [notice] 10564#11260: gracefully shutting down
+2016/12/06 12:00:48 [notice] 10564#10628: exiting
+2016/12/06 12:00:48 [notice] 10564#10628: exiting
+2016/12/06 12:00:53 [notice] 6640#11168: exit
+2016/12/06 12:00:53 [notice] 6640#11168: exit
+2016/12/06 12:38:29 [notice] 12020#12024: signal process started
+2016/12/06 12:38:29 [error] 12020#12024: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:38:29 [notice] 12032#12036: using the "select" event method
+2016/12/06 12:38:29 [notice] 12032#12036: using the "select" event method
+2016/12/06 12:38:29 [notice] 12032#12036: nginx/1.11.6
+2016/12/06 12:38:29 [notice] 12032#12036: nginx/1.11.6
+2016/12/06 12:38:29 [info] 12032#12036: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:38:29 [notice] 12032#12036: start worker processes
+2016/12/06 12:38:29 [notice] 12032#12036: start worker processes
+2016/12/06 12:38:29 [notice] 12032#12036: start worker process 12060
+2016/12/06 12:38:29 [notice] 12032#12036: start worker process 12060
+2016/12/06 12:38:29 [notice] 12060#12064: nginx/1.11.6
+2016/12/06 12:38:29 [notice] 12060#12064: nginx/1.11.6
+2016/12/06 12:38:29 [info] 12060#12064: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:38:29 [notice] 12060#12064: create thread 12084
+2016/12/06 12:38:29 [notice] 12060#12064: create thread 12084
+2016/12/06 12:38:29 [notice] 12060#12064: create thread 12088
+2016/12/06 12:38:29 [notice] 12060#12064: create thread 12088
+2016/12/06 12:38:29 [notice] 12060#12064: create thread 12092
+2016/12/06 12:38:29 [notice] 12060#12064: create thread 12092
+2016/12/06 12:38:38 [notice] 12192#12196: signal process started
+2016/12/06 12:38:38 [notice] 12032#12036: exiting
+2016/12/06 12:38:38 [notice] 12032#12036: exiting
+2016/12/06 12:38:38 [notice] 12060#12064: gracefully shutting down
+2016/12/06 12:38:38 [notice] 12060#12064: gracefully shutting down
+2016/12/06 12:38:38 [notice] 12060#12088: exiting
+2016/12/06 12:38:38 [notice] 12060#12088: exiting
+2016/12/06 12:38:38 [notice] 12204#12208: using the "select" event method
+2016/12/06 12:38:38 [notice] 12204#12208: using the "select" event method
+2016/12/06 12:38:38 [notice] 12204#12208: nginx/1.11.6
+2016/12/06 12:38:38 [notice] 12204#12208: nginx/1.11.6
+2016/12/06 12:38:38 [info] 12204#12208: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:38:38 [notice] 12204#12208: start worker processes
+2016/12/06 12:38:38 [notice] 12204#12208: start worker processes
+2016/12/06 12:38:38 [notice] 12204#12208: start worker process 12232
+2016/12/06 12:38:38 [notice] 12204#12208: start worker process 12232
+2016/12/06 12:38:38 [notice] 12232#12236: nginx/1.11.6
+2016/12/06 12:38:38 [notice] 12232#12236: nginx/1.11.6
+2016/12/06 12:38:38 [info] 12232#12236: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:38:38 [notice] 12232#12236: create thread 12256
+2016/12/06 12:38:38 [notice] 12232#12236: create thread 12256
+2016/12/06 12:38:38 [notice] 12232#12236: create thread 12260
+2016/12/06 12:38:38 [notice] 12232#12236: create thread 12260
+2016/12/06 12:38:38 [notice] 12232#12236: create thread 12264
+2016/12/06 12:38:38 [notice] 12232#12236: create thread 12264
+2016/12/06 12:38:43 [notice] 12032#12036: exit
+2016/12/06 12:38:43 [notice] 12032#12036: exit
+2016/12/06 12:38:59 [notice] 11408#11412: signal process started
+2016/12/06 12:38:59 [error] 11408#11412: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:39:35 [info] 12232#12256: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 12:39:35 [info] 12232#12256: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 12:39:54 [notice] 12152#12180: signal process started
+2016/12/06 12:39:54 [error] 12152#12180: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:39:54 [notice] 12196#12216: using the "select" event method
+2016/12/06 12:39:54 [notice] 12196#12216: using the "select" event method
+2016/12/06 12:39:54 [notice] 12196#12216: nginx/1.11.6
+2016/12/06 12:39:54 [notice] 12196#12216: nginx/1.11.6
+2016/12/06 12:39:54 [info] 12196#12216: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:39:54 [notice] 12196#12216: start worker processes
+2016/12/06 12:39:54 [notice] 12196#12216: start worker processes
+2016/12/06 12:39:54 [notice] 12196#12216: start worker process 11588
+2016/12/06 12:39:54 [notice] 12196#12216: start worker process 11588
+2016/12/06 12:39:54 [notice] 11588#12280: nginx/1.11.6
+2016/12/06 12:39:54 [notice] 11588#12280: nginx/1.11.6
+2016/12/06 12:39:54 [info] 11588#12280: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:39:54 [notice] 11588#12280: create thread 12088
+2016/12/06 12:39:54 [notice] 11588#12280: create thread 12088
+2016/12/06 12:39:54 [notice] 11588#12280: create thread 12092
+2016/12/06 12:39:54 [notice] 11588#12280: create thread 12092
+2016/12/06 12:39:54 [notice] 11588#12280: create thread 12064
+2016/12/06 12:39:54 [notice] 11588#12280: create thread 12064
+2016/12/06 12:40:06 [notice] 11412#7188: signal process started
+2016/12/06 12:40:06 [notice] 12196#12216: exiting
+2016/12/06 12:40:06 [notice] 12196#12216: exiting
+2016/12/06 12:40:06 [notice] 11588#12280: gracefully shutting down
+2016/12/06 12:40:06 [notice] 11588#12280: gracefully shutting down
+2016/12/06 12:40:06 [notice] 11588#12092: exiting
+2016/12/06 12:40:06 [notice] 11588#12092: exiting
+2016/12/06 12:40:06 [notice] 11312#10780: using the "select" event method
+2016/12/06 12:40:06 [notice] 11312#10780: using the "select" event method
+2016/12/06 12:40:06 [notice] 11312#10780: nginx/1.11.6
+2016/12/06 12:40:06 [notice] 11312#10780: nginx/1.11.6
+2016/12/06 12:40:06 [info] 11312#10780: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:40:06 [notice] 11312#10780: start worker processes
+2016/12/06 12:40:06 [notice] 11312#10780: start worker processes
+2016/12/06 12:40:06 [notice] 11312#10780: start worker process 11460
+2016/12/06 12:40:06 [notice] 11312#10780: start worker process 11460
+2016/12/06 12:40:06 [notice] 11460#11712: nginx/1.11.6
+2016/12/06 12:40:06 [notice] 11460#11712: nginx/1.11.6
+2016/12/06 12:40:06 [info] 11460#11712: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:40:06 [notice] 11460#11712: create thread 11476
+2016/12/06 12:40:06 [notice] 11460#11712: create thread 11476
+2016/12/06 12:40:06 [notice] 11460#11712: create thread 5588
+2016/12/06 12:40:06 [notice] 11460#11712: create thread 5588
+2016/12/06 12:40:06 [notice] 11460#11712: create thread 3780
+2016/12/06 12:40:06 [notice] 11460#11712: create thread 3780
+2016/12/06 12:40:06 [notice] 11588#12088: exiting
+2016/12/06 12:40:06 [notice] 11588#12088: exiting
+2016/12/06 12:40:06 [notice] 11588#12280: exit
+2016/12/06 12:40:06 [notice] 11588#12280: exit
+2016/12/06 12:40:06 [notice] 12196#12216: worker process 11588 exited with code 0
+2016/12/06 12:40:06 [notice] 12196#12216: worker process 11588 exited with code 0
+2016/12/06 12:40:06 [notice] 12196#12216: exit
+2016/12/06 12:40:06 [notice] 12196#12216: exit
+2016/12/06 12:40:12 [notice] 10112#11496: signal process started
+2016/12/06 12:40:12 [error] 10112#11496: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:40:25 [info] 12232#12256: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 12:40:46 [notice] 11272#9584: signal process started
+2016/12/06 12:40:46 [error] 11272#9584: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:41:06 [info] 12232#12256: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 12:41:41 [notice] 9028#7116: signal process started
+2016/12/06 12:41:41 [error] 9028#7116: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:41:59 [info] 12232#12256: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 12:42:12 [notice] 10560#11296: signal process started
+2016/12/06 12:42:12 [error] 10560#11296: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:42:20 [notice] 11964#11912: signal process started
+2016/12/06 12:42:20 [error] 11964#11912: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:42:20 [notice] 12120#12128: using the "select" event method
+2016/12/06 12:42:20 [notice] 12120#12128: using the "select" event method
+2016/12/06 12:42:20 [notice] 12120#12128: nginx/1.11.6
+2016/12/06 12:42:20 [notice] 12120#12128: nginx/1.11.6
+2016/12/06 12:42:20 [info] 12120#12128: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:42:20 [notice] 12120#12128: start worker processes
+2016/12/06 12:42:20 [notice] 12120#12128: start worker processes
+2016/12/06 12:42:20 [notice] 12120#12128: start worker process 11360
+2016/12/06 12:42:20 [notice] 12120#12128: start worker process 11360
+2016/12/06 12:42:20 [notice] 11360#11816: nginx/1.11.6
+2016/12/06 12:42:20 [notice] 11360#11816: nginx/1.11.6
+2016/12/06 12:42:20 [info] 11360#11816: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:42:20 [notice] 11360#11816: create thread 11624
+2016/12/06 12:42:20 [notice] 11360#11816: create thread 11624
+2016/12/06 12:42:20 [notice] 11360#11816: create thread 11812
+2016/12/06 12:42:20 [notice] 11360#11816: create thread 11812
+2016/12/06 12:42:20 [notice] 11360#11816: create thread 11344
+2016/12/06 12:42:20 [notice] 11360#11816: create thread 11344
+2016/12/06 12:42:26 [notice] 10456#11692: signal process started
+2016/12/06 12:42:26 [notice] 12120#12128: exiting
+2016/12/06 12:42:26 [notice] 12120#12128: exiting
+2016/12/06 12:42:26 [notice] 11360#11816: gracefully shutting down
+2016/12/06 12:42:26 [notice] 11360#11816: gracefully shutting down
+2016/12/06 12:42:26 [notice] 11360#11812: exiting
+2016/12/06 12:42:26 [notice] 11360#11812: exiting
+2016/12/06 12:42:26 [notice] 11360#11624: exiting
+2016/12/06 12:42:26 [notice] 11360#11624: exiting
+2016/12/06 12:42:26 [notice] 11360#11816: exit
+2016/12/06 12:42:26 [notice] 11360#11816: exit
+2016/12/06 12:42:26 [notice] 12120#12128: worker process 11360 exited with code 0
+2016/12/06 12:42:26 [notice] 12120#12128: worker process 11360 exited with code 0
+2016/12/06 12:42:26 [notice] 12120#12128: exit
+2016/12/06 12:42:26 [notice] 12120#12128: exit
+2016/12/06 12:42:41 [notice] 12220#12244: signal process started
+2016/12/06 12:42:41 [error] 12220#12244: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:42:49 [info] 12232#12256: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 12:43:11 [info] 12232#12256: *19 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 12:43:15 [notice] 11624#11812: signal process started
+2016/12/06 12:43:15 [error] 11624#11812: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:43:15 [notice] 11804#11344: using the "select" event method
+2016/12/06 12:43:15 [notice] 11804#11344: using the "select" event method
+2016/12/06 12:43:15 [notice] 11804#11344: nginx/1.11.6
+2016/12/06 12:43:15 [notice] 11804#11344: nginx/1.11.6
+2016/12/06 12:43:15 [info] 11804#11344: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:43:15 [notice] 11804#11344: start worker processes
+2016/12/06 12:43:15 [notice] 11804#11344: start worker processes
+2016/12/06 12:43:15 [notice] 11804#11344: start worker process 10124
+2016/12/06 12:43:15 [notice] 11804#11344: start worker process 10124
+2016/12/06 12:43:15 [notice] 10124#12136: nginx/1.11.6
+2016/12/06 12:43:15 [notice] 10124#12136: nginx/1.11.6
+2016/12/06 12:43:15 [info] 10124#12136: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:43:15 [notice] 10124#12136: create thread 11648
+2016/12/06 12:43:15 [notice] 10124#12136: create thread 11648
+2016/12/06 12:43:15 [notice] 10124#12136: create thread 5460
+2016/12/06 12:43:15 [notice] 10124#12136: create thread 5460
+2016/12/06 12:43:15 [notice] 10124#12136: create thread 10924
+2016/12/06 12:43:15 [notice] 10124#12136: create thread 10924
+2016/12/06 12:43:28 [notice] 11688#10340: signal process started
+2016/12/06 12:43:28 [notice] 11804#11344: exiting
+2016/12/06 12:43:28 [notice] 11804#11344: exiting
+2016/12/06 12:43:28 [notice] 10124#12136: gracefully shutting down
+2016/12/06 12:43:28 [notice] 10124#12136: gracefully shutting down
+2016/12/06 12:43:28 [notice] 10124#5460: exiting
+2016/12/06 12:43:28 [notice] 10124#5460: exiting
+2016/12/06 12:43:28 [notice] 10400#9896: using the "select" event method
+2016/12/06 12:43:28 [notice] 10400#9896: using the "select" event method
+2016/12/06 12:43:28 [notice] 10400#9896: nginx/1.11.6
+2016/12/06 12:43:28 [notice] 10400#9896: nginx/1.11.6
+2016/12/06 12:43:28 [info] 10400#9896: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:43:28 [notice] 10400#9896: start worker processes
+2016/12/06 12:43:28 [notice] 10400#9896: start worker processes
+2016/12/06 12:43:28 [notice] 10400#9896: start worker process 11760
+2016/12/06 12:43:28 [notice] 10400#9896: start worker process 11760
+2016/12/06 12:43:29 [notice] 11760#11332: nginx/1.11.6
+2016/12/06 12:43:29 [notice] 11760#11332: nginx/1.11.6
+2016/12/06 12:43:29 [info] 11760#11332: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:43:29 [notice] 11760#11332: create thread 12144
+2016/12/06 12:43:29 [notice] 11760#11332: create thread 12144
+2016/12/06 12:43:29 [notice] 11760#11332: create thread 11512
+2016/12/06 12:43:29 [notice] 11760#11332: create thread 11512
+2016/12/06 12:43:29 [notice] 11760#11332: create thread 12268
+2016/12/06 12:43:29 [notice] 11760#11332: create thread 12268
+2016/12/06 12:43:29 [notice] 10124#11648: exiting
+2016/12/06 12:43:29 [notice] 10124#11648: exiting
+2016/12/06 12:43:29 [notice] 10124#12136: exit
+2016/12/06 12:43:29 [notice] 10124#12136: exit
+2016/12/06 12:43:29 [notice] 11804#11344: worker process 10124 exited with code 0
+2016/12/06 12:43:29 [notice] 11804#11344: worker process 10124 exited with code 0
+2016/12/06 12:43:29 [notice] 11804#11344: exit
+2016/12/06 12:43:29 [notice] 11804#11344: exit
+2016/12/06 12:43:43 [notice] 11636#11824: signal process started
+2016/12/06 12:43:43 [error] 11636#11824: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:43:43 [notice] 11464#12140: using the "select" event method
+2016/12/06 12:43:43 [notice] 11464#12140: using the "select" event method
+2016/12/06 12:43:43 [notice] 11464#12140: nginx/1.11.6
+2016/12/06 12:43:43 [notice] 11464#12140: nginx/1.11.6
+2016/12/06 12:43:43 [info] 11464#12140: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:43:43 [notice] 11464#12140: start worker processes
+2016/12/06 12:43:43 [notice] 11464#12140: start worker processes
+2016/12/06 12:43:43 [notice] 11464#12140: start worker process 10468
+2016/12/06 12:43:43 [notice] 11464#12140: start worker process 10468
+2016/12/06 12:43:43 [notice] 10468#11708: nginx/1.11.6
+2016/12/06 12:43:43 [notice] 10468#11708: nginx/1.11.6
+2016/12/06 12:43:43 [info] 10468#11708: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:43:43 [notice] 10468#11708: create thread 11320
+2016/12/06 12:43:43 [notice] 10468#11708: create thread 11320
+2016/12/06 12:43:43 [notice] 10468#11708: create thread 11852
+2016/12/06 12:43:43 [notice] 10468#11708: create thread 11852
+2016/12/06 12:43:43 [notice] 10468#11708: create thread 11060
+2016/12/06 12:43:43 [notice] 10468#11708: create thread 11060
+2016/12/06 12:44:22 [notice] 11956#11820: signal process started
+2016/12/06 12:44:22 [notice] 11464#12140: shutting down
+2016/12/06 12:44:22 [notice] 11464#12140: shutting down
+2016/12/06 12:44:22 [notice] 10468#11708: gracefully shutting down
+2016/12/06 12:44:22 [notice] 10468#11708: gracefully shutting down
+2016/12/06 12:44:22 [notice] 10468#11852: exiting
+2016/12/06 12:44:22 [notice] 10468#11852: exiting
+2016/12/06 12:44:22 [notice] 11600#11832: using the "select" event method
+2016/12/06 12:44:22 [notice] 11600#11832: using the "select" event method
+2016/12/06 12:44:22 [notice] 11600#11832: nginx/1.11.6
+2016/12/06 12:44:22 [notice] 11600#11832: nginx/1.11.6
+2016/12/06 12:44:22 [info] 11600#11832: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:22 [notice] 11600#11832: start worker processes
+2016/12/06 12:44:22 [notice] 11600#11832: start worker processes
+2016/12/06 12:44:22 [notice] 11600#11832: start worker process 11308
+2016/12/06 12:44:22 [notice] 11600#11832: start worker process 11308
+2016/12/06 12:44:22 [notice] 11308#11096: nginx/1.11.6
+2016/12/06 12:44:22 [notice] 11308#11096: nginx/1.11.6
+2016/12/06 12:44:22 [info] 11308#11096: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:22 [notice] 11308#11096: create thread 11596
+2016/12/06 12:44:22 [notice] 11308#11096: create thread 11596
+2016/12/06 12:44:22 [notice] 11308#11096: create thread 11892
+2016/12/06 12:44:22 [notice] 11308#11096: create thread 11892
+2016/12/06 12:44:22 [notice] 11308#11096: create thread 11716
+2016/12/06 12:44:22 [notice] 11308#11096: create thread 11716
+2016/12/06 12:44:22 [notice] 10468#11320: exiting
+2016/12/06 12:44:22 [notice] 10468#11320: exiting
+2016/12/06 12:44:22 [notice] 10468#11708: exit
+2016/12/06 12:44:22 [notice] 10468#11708: exit
+2016/12/06 12:44:22 [notice] 11464#12140: worker process 10468 exited with code 0
+2016/12/06 12:44:22 [notice] 11464#12140: worker process 10468 exited with code 0
+2016/12/06 12:44:22 [notice] 11464#12140: exit
+2016/12/06 12:44:22 [notice] 11464#12140: exit
+2016/12/06 12:44:37 [notice] 11848#11976: signal process started
+2016/12/06 12:44:37 [error] 11848#11976: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:44:40 [notice] 11820#11080: signal process started
+2016/12/06 12:44:40 [error] 11820#11080: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:44:43 [notice] 11628#11704: signal process started
+2016/12/06 12:44:43 [error] 11628#11704: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:44:43 [notice] 11652#11900: using the "select" event method
+2016/12/06 12:44:43 [notice] 11652#11900: using the "select" event method
+2016/12/06 12:44:43 [notice] 11652#11900: nginx/1.11.6
+2016/12/06 12:44:43 [notice] 11652#11900: nginx/1.11.6
+2016/12/06 12:44:43 [info] 11652#11900: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:43 [notice] 11652#11900: start worker processes
+2016/12/06 12:44:43 [notice] 11652#11900: start worker processes
+2016/12/06 12:44:43 [notice] 11652#11900: start worker process 11404
+2016/12/06 12:44:43 [notice] 11652#11900: start worker process 11404
+2016/12/06 12:44:43 [notice] 11404#12044: nginx/1.11.6
+2016/12/06 12:44:43 [notice] 11404#12044: nginx/1.11.6
+2016/12/06 12:44:43 [info] 11404#12044: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:43 [notice] 11404#12044: create thread 11140
+2016/12/06 12:44:43 [notice] 11404#12044: create thread 11140
+2016/12/06 12:44:43 [notice] 11404#12044: create thread 11604
+2016/12/06 12:44:43 [notice] 11404#12044: create thread 11604
+2016/12/06 12:44:43 [notice] 11404#12044: create thread 12284
+2016/12/06 12:44:43 [notice] 11404#12044: create thread 12284
+2016/12/06 12:44:44 [notice] 12052#12280: signal process started
+2016/12/06 12:44:44 [notice] 11652#11900: shutting down
+2016/12/06 12:44:44 [notice] 11652#11900: shutting down
+2016/12/06 12:44:44 [notice] 11404#12044: gracefully shutting down
+2016/12/06 12:44:44 [notice] 11404#12044: gracefully shutting down
+2016/12/06 12:44:44 [notice] 11404#11604: exiting
+2016/12/06 12:44:44 [notice] 11404#11604: exiting
+2016/12/06 12:44:44 [notice] 11284#11976: using the "select" event method
+2016/12/06 12:44:44 [notice] 11284#11976: using the "select" event method
+2016/12/06 12:44:44 [notice] 11284#11976: nginx/1.11.6
+2016/12/06 12:44:44 [notice] 11284#11976: nginx/1.11.6
+2016/12/06 12:44:44 [info] 11284#11976: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:44 [notice] 11284#11976: start worker processes
+2016/12/06 12:44:44 [notice] 11284#11976: start worker processes
+2016/12/06 12:44:44 [notice] 11284#11976: start worker process 11480
+2016/12/06 12:44:44 [notice] 11284#11976: start worker process 11480
+2016/12/06 12:44:44 [notice] 11480#11932: nginx/1.11.6
+2016/12/06 12:44:44 [notice] 11480#11932: nginx/1.11.6
+2016/12/06 12:44:44 [info] 11480#11932: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:44 [notice] 11480#11932: create thread 12244
+2016/12/06 12:44:44 [notice] 11480#11932: create thread 12244
+2016/12/06 12:44:44 [notice] 11480#11932: create thread 11644
+2016/12/06 12:44:44 [notice] 11480#11932: create thread 11644
+2016/12/06 12:44:44 [notice] 11480#11932: create thread 11632
+2016/12/06 12:44:44 [notice] 11480#11932: create thread 11632
+2016/12/06 12:44:44 [notice] 11404#11140: exiting
+2016/12/06 12:44:44 [notice] 11404#11140: exiting
+2016/12/06 12:44:44 [notice] 11404#12044: exit
+2016/12/06 12:44:44 [notice] 11404#12044: exit
+2016/12/06 12:44:44 [notice] 11652#11900: worker process 11404 exited with code 0
+2016/12/06 12:44:44 [notice] 11652#11900: worker process 11404 exited with code 0
+2016/12/06 12:44:44 [notice] 11652#11900: exit
+2016/12/06 12:44:44 [notice] 11652#11900: exit
+2016/12/06 12:44:45 [notice] 11724#10376: signal process started
+2016/12/06 12:44:45 [error] 11724#10376: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:44:45 [notice] 11704#11916: using the "select" event method
+2016/12/06 12:44:45 [notice] 11704#11916: using the "select" event method
+2016/12/06 12:44:45 [notice] 11704#11916: nginx/1.11.6
+2016/12/06 12:44:45 [notice] 11704#11916: nginx/1.11.6
+2016/12/06 12:44:45 [info] 11704#11916: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:45 [notice] 11704#11916: start worker processes
+2016/12/06 12:44:45 [notice] 11704#11916: start worker processes
+2016/12/06 12:44:45 [notice] 11704#11916: start worker process 11416
+2016/12/06 12:44:45 [notice] 11704#11916: start worker process 11416
+2016/12/06 12:44:45 [notice] 11416#11780: nginx/1.11.6
+2016/12/06 12:44:45 [notice] 11416#11780: nginx/1.11.6
+2016/12/06 12:44:45 [info] 11416#11780: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:45 [notice] 11416#11780: create thread 11708
+2016/12/06 12:44:45 [notice] 11416#11780: create thread 11708
+2016/12/06 12:44:45 [notice] 11416#11780: create thread 11380
+2016/12/06 12:44:45 [notice] 11416#11780: create thread 11380
+2016/12/06 12:44:45 [notice] 11416#11780: create thread 11896
+2016/12/06 12:44:45 [notice] 11416#11780: create thread 11896
+2016/12/06 12:44:46 [notice] 11900#11656: signal process started
+2016/12/06 12:44:46 [notice] 11704#11916: shutting down
+2016/12/06 12:44:46 [notice] 11704#11916: shutting down
+2016/12/06 12:44:46 [notice] 11416#11780: gracefully shutting down
+2016/12/06 12:44:46 [notice] 11416#11780: gracefully shutting down
+2016/12/06 12:44:46 [notice] 11416#11380: exiting
+2016/12/06 12:44:46 [notice] 11416#11380: exiting
+2016/12/06 12:44:46 [notice] 12016#12096: using the "select" event method
+2016/12/06 12:44:46 [notice] 12016#12096: using the "select" event method
+2016/12/06 12:44:46 [notice] 12016#12096: nginx/1.11.6
+2016/12/06 12:44:46 [notice] 12016#12096: nginx/1.11.6
+2016/12/06 12:44:46 [info] 12016#12096: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:46 [notice] 12016#12096: start worker processes
+2016/12/06 12:44:46 [notice] 12016#12096: start worker processes
+2016/12/06 12:44:46 [notice] 12016#12096: start worker process 11060
+2016/12/06 12:44:46 [notice] 12016#12096: start worker process 11060
+2016/12/06 12:44:46 [notice] 11060#11844: nginx/1.11.6
+2016/12/06 12:44:46 [notice] 11060#11844: nginx/1.11.6
+2016/12/06 12:44:46 [info] 11060#11844: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:46 [notice] 11060#11844: create thread 10852
+2016/12/06 12:44:46 [notice] 11060#11844: create thread 10852
+2016/12/06 12:44:46 [notice] 11060#11844: create thread 11656
+2016/12/06 12:44:46 [notice] 11060#11844: create thread 11656
+2016/12/06 12:44:46 [notice] 11060#11844: create thread 10376
+2016/12/06 12:44:46 [notice] 11060#11844: create thread 10376
+2016/12/06 12:44:46 [notice] 11416#11708: exiting
+2016/12/06 12:44:46 [notice] 11416#11708: exiting
+2016/12/06 12:44:46 [notice] 11416#11780: exit
+2016/12/06 12:44:46 [notice] 11416#11780: exit
+2016/12/06 12:44:46 [notice] 11704#11916: worker process 11416 exited with code 0
+2016/12/06 12:44:46 [notice] 11704#11916: worker process 11416 exited with code 0
+2016/12/06 12:44:46 [notice] 11704#11916: exit
+2016/12/06 12:44:46 [notice] 11704#11916: exit
+2016/12/06 12:44:47 [notice] 12280#12132: signal process started
+2016/12/06 12:44:47 [error] 12280#12132: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:44:47 [notice] 12044#11796: using the "select" event method
+2016/12/06 12:44:47 [notice] 12044#11796: using the "select" event method
+2016/12/06 12:44:47 [notice] 12044#11796: nginx/1.11.6
+2016/12/06 12:44:47 [notice] 12044#11796: nginx/1.11.6
+2016/12/06 12:44:47 [info] 12044#11796: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:47 [notice] 12044#11796: start worker processes
+2016/12/06 12:44:47 [notice] 12044#11796: start worker processes
+2016/12/06 12:44:47 [notice] 12044#11796: start worker process 11916
+2016/12/06 12:44:47 [notice] 12044#11796: start worker process 11916
+2016/12/06 12:44:47 [notice] 11916#12292: nginx/1.11.6
+2016/12/06 12:44:47 [notice] 11916#12292: nginx/1.11.6
+2016/12/06 12:44:47 [info] 11916#12292: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:47 [notice] 11916#12292: create thread 12312
+2016/12/06 12:44:47 [notice] 11916#12292: create thread 12312
+2016/12/06 12:44:47 [notice] 11916#12292: create thread 12316
+2016/12/06 12:44:47 [notice] 11916#12292: create thread 12316
+2016/12/06 12:44:47 [notice] 11916#12292: create thread 12320
+2016/12/06 12:44:47 [notice] 11916#12292: create thread 12320
+2016/12/06 12:44:48 [notice] 12352#12356: signal process started
+2016/12/06 12:44:48 [notice] 12044#11796: shutting down
+2016/12/06 12:44:48 [notice] 12044#11796: shutting down
+2016/12/06 12:44:48 [notice] 11916#12292: gracefully shutting down
+2016/12/06 12:44:48 [notice] 11916#12292: gracefully shutting down
+2016/12/06 12:44:48 [notice] 11916#12316: exiting
+2016/12/06 12:44:48 [notice] 11916#12316: exiting
+2016/12/06 12:44:48 [notice] 12364#12368: using the "select" event method
+2016/12/06 12:44:48 [notice] 12364#12368: using the "select" event method
+2016/12/06 12:44:48 [notice] 12364#12368: nginx/1.11.6
+2016/12/06 12:44:48 [notice] 12364#12368: nginx/1.11.6
+2016/12/06 12:44:48 [info] 12364#12368: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:48 [notice] 12364#12368: start worker processes
+2016/12/06 12:44:48 [notice] 12364#12368: start worker processes
+2016/12/06 12:44:48 [notice] 12364#12368: start worker process 12392
+2016/12/06 12:44:48 [notice] 12364#12368: start worker process 12392
+2016/12/06 12:44:48 [notice] 12392#12396: nginx/1.11.6
+2016/12/06 12:44:48 [notice] 12392#12396: nginx/1.11.6
+2016/12/06 12:44:48 [info] 12392#12396: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:44:48 [notice] 12392#12396: create thread 12416
+2016/12/06 12:44:48 [notice] 12392#12396: create thread 12416
+2016/12/06 12:44:48 [notice] 12392#12396: create thread 12420
+2016/12/06 12:44:48 [notice] 12392#12396: create thread 12420
+2016/12/06 12:44:48 [notice] 12392#12396: create thread 12424
+2016/12/06 12:44:48 [notice] 12392#12396: create thread 12424
+2016/12/06 12:44:48 [notice] 11916#12312: exiting
+2016/12/06 12:44:48 [notice] 11916#12312: exiting
+2016/12/06 12:44:48 [notice] 11916#12292: exit
+2016/12/06 12:44:48 [notice] 11916#12292: exit
+2016/12/06 12:44:48 [notice] 12044#11796: worker process 11916 exited with code 0
+2016/12/06 12:44:48 [notice] 12044#11796: worker process 11916 exited with code 0
+2016/12/06 12:44:48 [notice] 12044#11796: exit
+2016/12/06 12:44:48 [notice] 12044#11796: exit
+2016/12/06 12:45:49 [notice] 11796#12348: signal process started
+2016/12/06 12:45:49 [error] 11796#12348: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:46:09 [notice] 7116#13008: signal process started
+2016/12/06 12:46:09 [error] 7116#13008: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:46:27 [notice] 11828#11348: signal process started
+2016/12/06 12:46:27 [error] 11828#11348: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:46:27 [notice] 12304#11560: using the "select" event method
+2016/12/06 12:46:27 [notice] 12304#11560: using the "select" event method
+2016/12/06 12:46:27 [notice] 12304#11560: nginx/1.11.6
+2016/12/06 12:46:27 [notice] 12304#11560: nginx/1.11.6
+2016/12/06 12:46:27 [info] 12304#11560: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:46:27 [notice] 12304#11560: start worker processes
+2016/12/06 12:46:27 [notice] 12304#11560: start worker processes
+2016/12/06 12:46:27 [notice] 12304#11560: start worker process 13296
+2016/12/06 12:46:27 [notice] 12304#11560: start worker process 13296
+2016/12/06 12:46:27 [notice] 13296#13288: nginx/1.11.6
+2016/12/06 12:46:27 [notice] 13296#13288: nginx/1.11.6
+2016/12/06 12:46:27 [info] 13296#13288: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:46:27 [notice] 13296#13288: create thread 12468
+2016/12/06 12:46:27 [notice] 13296#13288: create thread 12468
+2016/12/06 12:46:27 [notice] 13296#13288: create thread 12488
+2016/12/06 12:46:27 [notice] 13296#13288: create thread 12488
+2016/12/06 12:46:27 [notice] 13296#13288: create thread 12524
+2016/12/06 12:46:27 [notice] 13296#13288: create thread 12524
+2016/12/06 12:46:29 [notice] 1064#12492: signal process started
+2016/12/06 12:46:29 [notice] 12304#11560: shutting down
+2016/12/06 12:46:29 [notice] 12304#11560: shutting down
+2016/12/06 12:46:29 [notice] 13296#13288: gracefully shutting down
+2016/12/06 12:46:29 [notice] 13296#13288: gracefully shutting down
+2016/12/06 12:46:29 [notice] 13296#12488: exiting
+2016/12/06 12:46:29 [notice] 13296#12488: exiting
+2016/12/06 12:46:29 [notice] 6040#8288: using the "select" event method
+2016/12/06 12:46:29 [notice] 6040#8288: using the "select" event method
+2016/12/06 12:46:29 [notice] 6040#8288: nginx/1.11.6
+2016/12/06 12:46:29 [notice] 6040#8288: nginx/1.11.6
+2016/12/06 12:46:29 [info] 6040#8288: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:46:29 [notice] 6040#8288: start worker processes
+2016/12/06 12:46:29 [notice] 6040#8288: start worker processes
+2016/12/06 12:46:29 [notice] 6040#8288: start worker process 9556
+2016/12/06 12:46:29 [notice] 6040#8288: start worker process 9556
+2016/12/06 12:46:29 [notice] 9556#13008: nginx/1.11.6
+2016/12/06 12:46:29 [notice] 9556#13008: nginx/1.11.6
+2016/12/06 12:46:29 [info] 9556#13008: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:46:29 [notice] 9556#13008: create thread 12048
+2016/12/06 12:46:29 [notice] 9556#13008: create thread 12048
+2016/12/06 12:46:29 [notice] 9556#13008: create thread 10924
+2016/12/06 12:46:29 [notice] 9556#13008: create thread 10924
+2016/12/06 12:46:29 [notice] 9556#13008: create thread 11428
+2016/12/06 12:46:29 [notice] 9556#13008: create thread 11428
+2016/12/06 12:46:29 [notice] 13296#12468: exiting
+2016/12/06 12:46:29 [notice] 13296#12468: exiting
+2016/12/06 12:46:29 [notice] 13296#13288: exit
+2016/12/06 12:46:29 [notice] 13296#13288: exit
+2016/12/06 12:46:29 [notice] 12304#11560: worker process 13296 exited with code 0
+2016/12/06 12:46:29 [notice] 12304#11560: worker process 13296 exited with code 0
+2016/12/06 12:46:29 [notice] 12304#11560: exit
+2016/12/06 12:46:29 [notice] 12304#11560: exit
+2016/12/06 12:47:00 [notice] 10400#9896: worker process 11760 exited with code 1
+2016/12/06 12:47:00 [notice] 10400#9896: worker process 11760 exited with code 1
+2016/12/06 12:47:00 [notice] 10400#9896: start worker process 13292
+2016/12/06 12:47:00 [notice] 10400#9896: start worker process 13292
+2016/12/06 12:47:00 [notice] 13292#12728: nginx/1.11.6
+2016/12/06 12:47:00 [notice] 13292#12728: nginx/1.11.6
+2016/12/06 12:47:00 [info] 13292#12728: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:47:00 [notice] 13292#12728: create thread 12340
+2016/12/06 12:47:00 [notice] 13292#12728: create thread 12340
+2016/12/06 12:47:00 [notice] 13292#12728: create thread 10892
+2016/12/06 12:47:00 [notice] 13292#12728: create thread 10892
+2016/12/06 12:47:00 [notice] 13292#12728: create thread 12488
+2016/12/06 12:47:00 [notice] 13292#12728: create thread 12488
+2016/12/06 12:47:03 [notice] 12016#12096: worker process 11060 exited with code 1
+2016/12/06 12:47:03 [notice] 12016#12096: worker process 11060 exited with code 1
+2016/12/06 12:47:03 [notice] 12016#12096: start worker process 12036
+2016/12/06 12:47:03 [notice] 12016#12096: start worker process 12036
+2016/12/06 12:47:03 [notice] 12036#11832: nginx/1.11.6
+2016/12/06 12:47:03 [notice] 12036#11832: nginx/1.11.6
+2016/12/06 12:47:03 [info] 12036#11832: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:47:03 [notice] 12036#11832: create thread 13096
+2016/12/06 12:47:03 [notice] 12036#11832: create thread 13096
+2016/12/06 12:47:03 [notice] 12036#11832: create thread 13088
+2016/12/06 12:47:03 [notice] 12036#11832: create thread 13088
+2016/12/06 12:47:03 [notice] 12036#11832: create thread 13100
+2016/12/06 12:47:03 [notice] 12036#11832: create thread 13100
+2016/12/06 12:47:11 [notice] 12364#12368: worker process 12392 exited with code 1
+2016/12/06 12:47:11 [notice] 12364#12368: worker process 12392 exited with code 1
+2016/12/06 12:47:11 [notice] 12364#12368: start worker process 13132
+2016/12/06 12:47:11 [notice] 12364#12368: start worker process 13132
+2016/12/06 12:47:11 [notice] 13132#13124: nginx/1.11.6
+2016/12/06 12:47:11 [notice] 13132#13124: nginx/1.11.6
+2016/12/06 12:47:11 [info] 13132#13124: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:47:11 [notice] 13132#13124: create thread 11720
+2016/12/06 12:47:11 [notice] 13132#13124: create thread 11720
+2016/12/06 12:47:11 [notice] 13132#13124: create thread 11824
+2016/12/06 12:47:11 [notice] 13132#13124: create thread 11824
+2016/12/06 12:47:11 [notice] 13132#13124: create thread 11096
+2016/12/06 12:47:11 [notice] 13132#13124: create thread 11096
+2016/12/06 12:55:17 [notice] 13964#13220: signal process started
+2016/12/06 12:55:17 [error] 13964#13220: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 12:55:17 [notice] 11748#9552: using the "select" event method
+2016/12/06 12:55:17 [notice] 11748#9552: using the "select" event method
+2016/12/06 12:55:17 [notice] 11748#9552: nginx/1.11.6
+2016/12/06 12:55:17 [notice] 11748#9552: nginx/1.11.6
+2016/12/06 12:55:17 [info] 11748#9552: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:55:17 [notice] 11748#9552: start worker processes
+2016/12/06 12:55:17 [notice] 11748#9552: start worker processes
+2016/12/06 12:55:17 [notice] 11748#9552: start worker process 8632
+2016/12/06 12:55:17 [notice] 11748#9552: start worker process 8632
+2016/12/06 12:55:17 [notice] 8632#12576: nginx/1.11.6
+2016/12/06 12:55:17 [notice] 8632#12576: nginx/1.11.6
+2016/12/06 12:55:17 [info] 8632#12576: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:55:17 [notice] 8632#12576: create thread 13824
+2016/12/06 12:55:17 [notice] 8632#12576: create thread 13824
+2016/12/06 12:55:17 [notice] 8632#12576: create thread 13772
+2016/12/06 12:55:17 [notice] 8632#12576: create thread 13772
+2016/12/06 12:55:17 [notice] 8632#12576: create thread 13752
+2016/12/06 12:55:17 [notice] 8632#12576: create thread 13752
+2016/12/06 12:55:50 [notice] 5588#13628: signal process started
+2016/12/06 12:55:50 [notice] 11748#9552: shutting down
+2016/12/06 12:55:50 [notice] 11748#9552: shutting down
+2016/12/06 12:55:50 [notice] 8632#12576: gracefully shutting down
+2016/12/06 12:55:50 [notice] 8632#12576: gracefully shutting down
+2016/12/06 12:55:50 [notice] 8632#13772: exiting
+2016/12/06 12:55:50 [notice] 8632#13772: exiting
+2016/12/06 12:55:50 [notice] 14332#10880: using the "select" event method
+2016/12/06 12:55:50 [notice] 14332#10880: using the "select" event method
+2016/12/06 12:55:50 [notice] 14332#10880: nginx/1.11.6
+2016/12/06 12:55:50 [notice] 14332#10880: nginx/1.11.6
+2016/12/06 12:55:50 [info] 14332#10880: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:55:50 [notice] 14332#10880: start worker processes
+2016/12/06 12:55:50 [notice] 14332#10880: start worker processes
+2016/12/06 12:55:50 [notice] 14332#10880: start worker process 13484
+2016/12/06 12:55:50 [notice] 14332#10880: start worker process 13484
+2016/12/06 12:55:50 [notice] 13484#13480: nginx/1.11.6
+2016/12/06 12:55:50 [notice] 13484#13480: nginx/1.11.6
+2016/12/06 12:55:50 [info] 13484#13480: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 12:55:50 [notice] 13484#13480: create thread 14208
+2016/12/06 12:55:50 [notice] 13484#13480: create thread 14208
+2016/12/06 12:55:50 [notice] 13484#13480: create thread 11668
+2016/12/06 12:55:50 [notice] 13484#13480: create thread 11668
+2016/12/06 12:55:50 [notice] 13484#13480: create thread 14220
+2016/12/06 12:55:50 [notice] 13484#13480: create thread 14220
+2016/12/06 12:55:50 [notice] 8632#13824: exiting
+2016/12/06 12:55:50 [notice] 8632#13824: exiting
+2016/12/06 12:55:50 [notice] 8632#12576: exit
+2016/12/06 12:55:50 [notice] 8632#12576: exit
+2016/12/06 12:55:50 [notice] 11748#9552: worker process 8632 exited with code 0
+2016/12/06 12:55:50 [notice] 11748#9552: worker process 8632 exited with code 0
+2016/12/06 12:55:50 [notice] 11748#9552: exit
+2016/12/06 12:55:50 [notice] 11748#9552: exit
+2016/12/06 13:00:37 [notice] 12324#12464: using the "select" event method
+2016/12/06 13:00:37 [notice] 12324#12464: using the "select" event method
+2016/12/06 13:00:37 [notice] 12324#12464: nginx/1.11.6
+2016/12/06 13:00:37 [notice] 12324#12464: nginx/1.11.6
+2016/12/06 13:00:37 [info] 12324#12464: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:00:37 [notice] 12324#12464: start worker processes
+2016/12/06 13:00:37 [notice] 12324#12464: start worker processes
+2016/12/06 13:00:37 [notice] 12324#12464: start worker process 12276
+2016/12/06 13:00:37 [notice] 12324#12464: start worker process 12276
+2016/12/06 13:00:37 [notice] 12276#13628: nginx/1.11.6
+2016/12/06 13:00:37 [notice] 12276#13628: nginx/1.11.6
+2016/12/06 13:00:37 [info] 12276#13628: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:00:37 [notice] 12276#13628: create thread 15156
+2016/12/06 13:00:37 [notice] 12276#13628: create thread 15156
+2016/12/06 13:00:37 [notice] 12276#13628: create thread 15152
+2016/12/06 13:00:37 [notice] 12276#13628: create thread 15152
+2016/12/06 13:00:37 [notice] 12276#13628: create thread 10852
+2016/12/06 13:00:37 [notice] 12276#13628: create thread 10852
+2016/12/06 13:08:19 [notice] 15036#13620: signal process started
+2016/12/06 13:08:19 [notice] 12324#12464: shutting down
+2016/12/06 13:08:19 [notice] 12324#12464: shutting down
+2016/12/06 13:08:19 [notice] 12276#13628: gracefully shutting down
+2016/12/06 13:08:19 [notice] 12276#13628: gracefully shutting down
+2016/12/06 13:08:19 [notice] 12276#15152: exiting
+2016/12/06 13:08:19 [notice] 12276#15152: exiting
+2016/12/06 13:08:19 [notice] 13884#14072: using the "select" event method
+2016/12/06 13:08:19 [notice] 13884#14072: using the "select" event method
+2016/12/06 13:08:19 [notice] 13884#14072: nginx/1.11.6
+2016/12/06 13:08:19 [notice] 13884#14072: nginx/1.11.6
+2016/12/06 13:08:19 [info] 13884#14072: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:08:19 [notice] 13884#14072: start worker processes
+2016/12/06 13:08:19 [notice] 13884#14072: start worker processes
+2016/12/06 13:08:19 [notice] 13884#14072: start worker process 15028
+2016/12/06 13:08:19 [notice] 13884#14072: start worker process 15028
+2016/12/06 13:08:19 [notice] 12276#15156: exiting
+2016/12/06 13:08:19 [notice] 12276#15156: exiting
+2016/12/06 13:08:19 [notice] 12276#13628: exit
+2016/12/06 13:08:19 [notice] 12276#13628: exit
+2016/12/06 13:08:19 [notice] 12324#12464: worker process 12276 exited with code 0
+2016/12/06 13:08:19 [notice] 12324#12464: worker process 12276 exited with code 0
+2016/12/06 13:08:19 [notice] 12324#12464: exit
+2016/12/06 13:08:19 [notice] 12324#12464: exit
+2016/12/06 13:08:19 [notice] 15028#14248: nginx/1.11.6
+2016/12/06 13:08:19 [notice] 15028#14248: nginx/1.11.6
+2016/12/06 13:08:19 [info] 15028#14248: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:08:19 [notice] 15028#14248: create thread 14612
+2016/12/06 13:08:19 [notice] 15028#14248: create thread 14612
+2016/12/06 13:08:19 [notice] 15028#14248: create thread 13896
+2016/12/06 13:08:19 [notice] 15028#14248: create thread 13896
+2016/12/06 13:08:19 [notice] 15028#14248: create thread 15180
+2016/12/06 13:08:19 [notice] 15028#14248: create thread 15180
+2016/12/06 13:08:32 [notice] 14604#11484: signal process started
+2016/12/06 13:08:32 [error] 14604#11484: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 13:08:32 [notice] 14344#15296: using the "select" event method
+2016/12/06 13:08:32 [notice] 14344#15296: using the "select" event method
+2016/12/06 13:08:32 [notice] 14344#15296: nginx/1.11.6
+2016/12/06 13:08:32 [notice] 14344#15296: nginx/1.11.6
+2016/12/06 13:08:32 [info] 14344#15296: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:08:32 [notice] 14344#15296: start worker processes
+2016/12/06 13:08:32 [notice] 14344#15296: start worker processes
+2016/12/06 13:08:32 [notice] 14344#15296: start worker process 14288
+2016/12/06 13:08:32 [notice] 14344#15296: start worker process 14288
+2016/12/06 13:08:32 [notice] 14288#14820: nginx/1.11.6
+2016/12/06 13:08:32 [notice] 14288#14820: nginx/1.11.6
+2016/12/06 13:08:32 [info] 14288#14820: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:08:32 [notice] 14288#14820: create thread 12884
+2016/12/06 13:08:32 [notice] 14288#14820: create thread 12884
+2016/12/06 13:08:32 [notice] 14288#14820: create thread 7912
+2016/12/06 13:08:32 [notice] 14288#14820: create thread 7912
+2016/12/06 13:08:32 [notice] 14288#14820: create thread 15308
+2016/12/06 13:08:32 [notice] 14288#14820: create thread 15308
+2016/12/06 13:10:08 [notice] 15336#12472: signal process started
+2016/12/06 13:10:08 [notice] 14344#15296: shutting down
+2016/12/06 13:10:08 [notice] 14344#15296: shutting down
+2016/12/06 13:10:08 [notice] 14288#14820: gracefully shutting down
+2016/12/06 13:10:08 [notice] 14288#14820: gracefully shutting down
+2016/12/06 13:10:08 [notice] 14288#7912: exiting
+2016/12/06 13:10:08 [notice] 14288#7912: exiting
+2016/12/06 13:10:08 [notice] 15348#15056: using the "select" event method
+2016/12/06 13:10:08 [notice] 15348#15056: using the "select" event method
+2016/12/06 13:10:08 [notice] 15348#15056: nginx/1.11.6
+2016/12/06 13:10:08 [notice] 15348#15056: nginx/1.11.6
+2016/12/06 13:10:08 [info] 15348#15056: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:10:08 [notice] 15348#15056: start worker processes
+2016/12/06 13:10:08 [notice] 15348#15056: start worker processes
+2016/12/06 13:10:08 [notice] 15348#15056: start worker process 12092
+2016/12/06 13:10:08 [notice] 15348#15056: start worker process 12092
+2016/12/06 13:10:08 [notice] 12092#8636: nginx/1.11.6
+2016/12/06 13:10:08 [notice] 12092#8636: nginx/1.11.6
+2016/12/06 13:10:08 [info] 12092#8636: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:10:08 [notice] 12092#8636: create thread 14624
+2016/12/06 13:10:08 [notice] 12092#8636: create thread 14624
+2016/12/06 13:10:08 [notice] 12092#8636: create thread 9840
+2016/12/06 13:10:08 [notice] 12092#8636: create thread 9840
+2016/12/06 13:10:08 [notice] 12092#8636: create thread 14948
+2016/12/06 13:10:08 [notice] 12092#8636: create thread 14948
+2016/12/06 13:10:09 [notice] 14288#12884: exiting
+2016/12/06 13:10:09 [notice] 14288#12884: exiting
+2016/12/06 13:10:09 [notice] 14288#14820: exit
+2016/12/06 13:10:09 [notice] 14288#14820: exit
+2016/12/06 13:10:09 [notice] 14344#15296: worker process 14288 exited with code 0
+2016/12/06 13:10:09 [notice] 14344#15296: worker process 14288 exited with code 0
+2016/12/06 13:10:09 [notice] 14344#15296: exit
+2016/12/06 13:10:09 [notice] 14344#15296: exit
+2016/12/06 13:11:50 [notice] 14940#10284: signal process started
+2016/12/06 13:11:50 [error] 14940#10284: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 13:11:50 [notice] 13420#11892: using the "select" event method
+2016/12/06 13:11:50 [notice] 13420#11892: using the "select" event method
+2016/12/06 13:11:50 [notice] 13420#11892: nginx/1.11.6
+2016/12/06 13:11:50 [notice] 13420#11892: nginx/1.11.6
+2016/12/06 13:11:50 [info] 13420#11892: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:11:50 [notice] 13420#11892: start worker processes
+2016/12/06 13:11:50 [notice] 13420#11892: start worker processes
+2016/12/06 13:11:50 [notice] 13420#11892: start worker process 11268
+2016/12/06 13:11:50 [notice] 13420#11892: start worker process 11268
+2016/12/06 13:11:50 [notice] 11268#11424: nginx/1.11.6
+2016/12/06 13:11:50 [notice] 11268#11424: nginx/1.11.6
+2016/12/06 13:11:50 [info] 11268#11424: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:11:50 [notice] 11268#11424: create thread 14404
+2016/12/06 13:11:50 [notice] 11268#11424: create thread 14404
+2016/12/06 13:11:50 [notice] 11268#11424: create thread 13068
+2016/12/06 13:11:50 [notice] 11268#11424: create thread 13068
+2016/12/06 13:11:50 [notice] 11268#11424: create thread 10412
+2016/12/06 13:11:50 [notice] 11268#11424: create thread 10412
+2016/12/06 13:13:08 [notice] 14388#14780: signal process started
+2016/12/06 13:13:08 [notice] 13420#11892: shutting down
+2016/12/06 13:13:08 [notice] 13420#11892: shutting down
+2016/12/06 13:13:08 [notice] 11268#11424: gracefully shutting down
+2016/12/06 13:13:08 [notice] 11268#11424: gracefully shutting down
+2016/12/06 13:13:08 [notice] 11268#13068: exiting
+2016/12/06 13:13:08 [notice] 11268#13068: exiting
+2016/12/06 13:13:08 [notice] 14564#14148: using the "select" event method
+2016/12/06 13:13:08 [notice] 14564#14148: using the "select" event method
+2016/12/06 13:13:08 [notice] 14564#14148: nginx/1.11.6
+2016/12/06 13:13:08 [notice] 14564#14148: nginx/1.11.6
+2016/12/06 13:13:08 [info] 14564#14148: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:13:08 [notice] 14564#14148: start worker processes
+2016/12/06 13:13:08 [notice] 14564#14148: start worker processes
+2016/12/06 13:13:08 [notice] 14564#14148: start worker process 12264
+2016/12/06 13:13:08 [notice] 14564#14148: start worker process 12264
+2016/12/06 13:13:08 [notice] 11268#14404: exiting
+2016/12/06 13:13:08 [notice] 11268#14404: exiting
+2016/12/06 13:13:08 [notice] 11268#11424: exit
+2016/12/06 13:13:08 [notice] 11268#11424: exit
+2016/12/06 13:13:08 [notice] 13420#11892: worker process 11268 exited with code 0
+2016/12/06 13:13:08 [notice] 13420#11892: worker process 11268 exited with code 0
+2016/12/06 13:13:08 [notice] 13420#11892: exit
+2016/12/06 13:13:08 [notice] 13420#11892: exit
+2016/12/06 13:13:08 [notice] 12264#14032: nginx/1.11.6
+2016/12/06 13:13:08 [notice] 12264#14032: nginx/1.11.6
+2016/12/06 13:13:08 [info] 12264#14032: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:13:08 [notice] 12264#14032: create thread 11344
+2016/12/06 13:13:08 [notice] 12264#14032: create thread 11344
+2016/12/06 13:13:08 [notice] 12264#14032: create thread 13428
+2016/12/06 13:13:08 [notice] 12264#14032: create thread 13428
+2016/12/06 13:13:08 [notice] 12264#14032: create thread 9596
+2016/12/06 13:13:08 [notice] 12264#14032: create thread 9596
+2016/12/06 13:35:54 [notice] 13564#13524: signal process started
+2016/12/06 13:35:54 [error] 13564#13524: CreateFile() "D:\nginx+php\nginx-1.11.6/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/12/06 13:35:54 [notice] 12108#14048: using the "select" event method
+2016/12/06 13:35:54 [notice] 12108#14048: using the "select" event method
+2016/12/06 13:35:54 [notice] 12108#14048: nginx/1.11.6
+2016/12/06 13:35:54 [notice] 12108#14048: nginx/1.11.6
+2016/12/06 13:35:54 [info] 12108#14048: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:35:54 [notice] 12108#14048: start worker processes
+2016/12/06 13:35:54 [notice] 12108#14048: start worker processes
+2016/12/06 13:35:54 [notice] 12108#14048: start worker process 12412
+2016/12/06 13:35:54 [notice] 12108#14048: start worker process 12412
+2016/12/06 13:35:54 [notice] 12412#14268: nginx/1.11.6
+2016/12/06 13:35:54 [notice] 12412#14268: nginx/1.11.6
+2016/12/06 13:35:54 [info] 12412#14268: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:35:54 [notice] 12412#14268: create thread 11940
+2016/12/06 13:35:54 [notice] 12412#14268: create thread 11940
+2016/12/06 13:35:54 [notice] 12412#14268: create thread 11888
+2016/12/06 13:35:54 [notice] 12412#14268: create thread 11888
+2016/12/06 13:35:54 [notice] 12412#14268: create thread 14548
+2016/12/06 13:35:54 [notice] 12412#14268: create thread 14548
+2016/12/06 13:36:02 [notice] 13748#13752: using the "select" event method
+2016/12/06 13:36:02 [notice] 13748#13752: using the "select" event method
+2016/12/06 13:36:02 [notice] 13748#13752: nginx/1.11.6
+2016/12/06 13:36:02 [notice] 13748#13752: nginx/1.11.6
+2016/12/06 13:36:02 [info] 13748#13752: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:36:02 [notice] 13748#13752: start worker processes
+2016/12/06 13:36:02 [notice] 13748#13752: start worker processes
+2016/12/06 13:36:02 [notice] 13748#13752: start worker process 14276
+2016/12/06 13:36:02 [notice] 13748#13752: start worker process 14276
+2016/12/06 13:36:02 [notice] 14276#13344: nginx/1.11.6
+2016/12/06 13:36:02 [notice] 14276#13344: nginx/1.11.6
+2016/12/06 13:36:02 [info] 14276#13344: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:36:02 [notice] 14276#13344: create thread 12520
+2016/12/06 13:36:02 [notice] 14276#13344: create thread 12520
+2016/12/06 13:36:02 [notice] 14276#13344: create thread 12972
+2016/12/06 13:36:02 [notice] 14276#13344: create thread 12972
+2016/12/06 13:36:02 [notice] 14276#13344: create thread 14096
+2016/12/06 13:36:02 [notice] 14276#13344: create thread 14096
+2016/12/06 13:36:54 [notice] 8288#15204: using the "select" event method
+2016/12/06 13:36:54 [notice] 8288#15204: using the "select" event method
+2016/12/06 13:36:54 [notice] 8288#15204: nginx/1.11.6
+2016/12/06 13:36:54 [notice] 8288#15204: nginx/1.11.6
+2016/12/06 13:36:54 [info] 8288#15204: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:36:54 [notice] 8288#15204: start worker processes
+2016/12/06 13:36:54 [notice] 8288#15204: start worker processes
+2016/12/06 13:36:54 [notice] 8288#15204: start worker process 14064
+2016/12/06 13:36:54 [notice] 8288#15204: start worker process 14064
+2016/12/06 13:36:54 [notice] 14064#11872: nginx/1.11.6
+2016/12/06 13:36:54 [notice] 14064#11872: nginx/1.11.6
+2016/12/06 13:36:54 [info] 14064#11872: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:36:54 [notice] 14064#11872: create thread 12588
+2016/12/06 13:36:54 [notice] 14064#11872: create thread 12588
+2016/12/06 13:36:54 [notice] 14064#11872: create thread 13436
+2016/12/06 13:36:54 [notice] 14064#11872: create thread 13436
+2016/12/06 13:36:54 [notice] 14064#11872: create thread 12492
+2016/12/06 13:36:54 [notice] 14064#11872: create thread 12492
+2016/12/06 13:39:45 [notice] 5768#14820: using the "select" event method
+2016/12/06 13:39:45 [notice] 5768#14820: using the "select" event method
+2016/12/06 13:39:45 [notice] 5768#14820: nginx/1.11.6
+2016/12/06 13:39:45 [notice] 5768#14820: nginx/1.11.6
+2016/12/06 13:39:45 [info] 5768#14820: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:39:45 [notice] 5768#14820: start worker processes
+2016/12/06 13:39:45 [notice] 5768#14820: start worker processes
+2016/12/06 13:39:45 [notice] 5768#14820: start worker process 15132
+2016/12/06 13:39:45 [notice] 5768#14820: start worker process 15132
+2016/12/06 13:39:45 [notice] 15132#15080: nginx/1.11.6
+2016/12/06 13:39:45 [notice] 15132#15080: nginx/1.11.6
+2016/12/06 13:39:45 [info] 15132#15080: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:39:45 [notice] 15132#15080: create thread 14048
+2016/12/06 13:39:45 [notice] 15132#15080: create thread 14048
+2016/12/06 13:39:45 [notice] 15132#15080: create thread 13388
+2016/12/06 13:39:45 [notice] 15132#15080: create thread 13388
+2016/12/06 13:39:45 [notice] 15132#15080: create thread 14404
+2016/12/06 13:39:45 [notice] 15132#15080: create thread 14404
+2016/12/06 13:39:48 [error] 15132#14048: *1 "D:/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:39:48 [error] 15132#14048: *1 "D:/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:39:48 [error] 15132#14048: *1 "D:/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:39:59 [info] 15132#14048: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:39:59 [info] 15132#14048: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:41:05 [notice] 13640#11508: using the "select" event method
+2016/12/06 13:41:05 [notice] 13640#11508: using the "select" event method
+2016/12/06 13:41:05 [notice] 13640#11508: nginx/1.11.6
+2016/12/06 13:41:05 [notice] 13640#11508: nginx/1.11.6
+2016/12/06 13:41:05 [info] 13640#11508: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:41:05 [notice] 13640#11508: start worker processes
+2016/12/06 13:41:05 [notice] 13640#11508: start worker processes
+2016/12/06 13:41:05 [notice] 13640#11508: start worker process 14572
+2016/12/06 13:41:05 [notice] 13640#11508: start worker process 14572
+2016/12/06 13:41:05 [notice] 14572#15128: nginx/1.11.6
+2016/12/06 13:41:05 [notice] 14572#15128: nginx/1.11.6
+2016/12/06 13:41:05 [info] 14572#15128: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:41:05 [notice] 14572#15128: create thread 13436
+2016/12/06 13:41:05 [notice] 14572#15128: create thread 13436
+2016/12/06 13:41:05 [notice] 14572#15128: create thread 11424
+2016/12/06 13:41:05 [notice] 14572#15128: create thread 11424
+2016/12/06 13:41:05 [notice] 14572#15128: create thread 13360
+2016/12/06 13:41:05 [notice] 14572#15128: create thread 13360
+2016/12/06 13:41:08 [error] 15132#14048: *4 "D:/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:41:08 [error] 15132#14048: *4 "D:/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:41:08 [error] 15132#14048: *4 "D:/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:41:19 [notice] 12388#13792: using the "select" event method
+2016/12/06 13:41:19 [notice] 12388#13792: using the "select" event method
+2016/12/06 13:41:19 [notice] 12388#13792: nginx/1.11.6
+2016/12/06 13:41:19 [notice] 12388#13792: nginx/1.11.6
+2016/12/06 13:41:19 [info] 12388#13792: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:41:19 [notice] 12388#13792: start worker processes
+2016/12/06 13:41:19 [notice] 12388#13792: start worker processes
+2016/12/06 13:41:19 [notice] 12388#13792: start worker process 11424
+2016/12/06 13:41:19 [notice] 12388#13792: start worker process 11424
+2016/12/06 13:41:19 [notice] 11424#13360: nginx/1.11.6
+2016/12/06 13:41:19 [notice] 11424#13360: nginx/1.11.6
+2016/12/06 13:41:19 [info] 11424#13360: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:41:19 [notice] 11424#13360: create thread 13388
+2016/12/06 13:41:19 [notice] 11424#13360: create thread 13388
+2016/12/06 13:41:19 [notice] 11424#13360: create thread 14404
+2016/12/06 13:41:19 [notice] 11424#13360: create thread 14404
+2016/12/06 13:41:19 [notice] 11424#13360: create thread 13616
+2016/12/06 13:41:19 [notice] 11424#13360: create thread 13616
+2016/12/06 13:41:22 [crit] 11424#13388: *1 GetFileAttributesEx() "E:/Git
+ginx+php/nginx-1.11.6/html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:41:22 [crit] 11424#13388: *1 GetFileAttributesEx() "E:/Git
+ginx+php/nginx-1.11.6/html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:41:22 [crit] 11424#13388: *1 GetFileAttributesEx() "E:/Git
+ginx+php/nginx-1.11.6/html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:41:32 [info] 11424#13388: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:41:38 [info] 11424#13388: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:42:18 [notice] 2160#8312: using the "select" event method
+2016/12/06 13:42:18 [notice] 2160#8312: using the "select" event method
+2016/12/06 13:42:18 [notice] 2160#8312: nginx/1.11.6
+2016/12/06 13:42:18 [notice] 2160#8312: nginx/1.11.6
+2016/12/06 13:42:18 [info] 2160#8312: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:42:18 [notice] 2160#8312: start worker processes
+2016/12/06 13:42:18 [notice] 2160#8312: start worker processes
+2016/12/06 13:42:18 [notice] 2160#8312: start worker process 8636
+2016/12/06 13:42:18 [notice] 2160#8312: start worker process 8636
+2016/12/06 13:42:18 [notice] 8636#15204: nginx/1.11.6
+2016/12/06 13:42:18 [notice] 8636#15204: nginx/1.11.6
+2016/12/06 13:42:18 [info] 8636#15204: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:42:18 [notice] 8636#15204: create thread 13904
+2016/12/06 13:42:18 [notice] 8636#15204: create thread 13904
+2016/12/06 13:42:18 [notice] 8636#15204: create thread 14132
+2016/12/06 13:42:18 [notice] 8636#15204: create thread 14132
+2016/12/06 13:42:18 [notice] 8636#15204: create thread 14248
+2016/12/06 13:42:18 [notice] 8636#15204: create thread 14248
+2016/12/06 13:42:21 [crit] 11424#13388: *4 GetFileAttributesEx() "E:/Git
+ginx+php/nginx-1.11.6/html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:42:21 [crit] 11424#13388: *4 GetFileAttributesEx() "E:/Git
+ginx+php/nginx-1.11.6/html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:42:21 [crit] 11424#13388: *4 GetFileAttributesEx() "E:/Git
+ginx+php/nginx-1.11.6/html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 13:42:29 [notice] 14328#13388: using the "select" event method
+2016/12/06 13:42:29 [notice] 14328#13388: using the "select" event method
+2016/12/06 13:42:29 [notice] 14328#13388: nginx/1.11.6
+2016/12/06 13:42:29 [notice] 14328#13388: nginx/1.11.6
+2016/12/06 13:42:29 [info] 14328#13388: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:42:29 [notice] 14328#13388: start worker processes
+2016/12/06 13:42:29 [notice] 14328#13388: start worker processes
+2016/12/06 13:42:29 [notice] 14328#13388: start worker process 14960
+2016/12/06 13:42:29 [notice] 14328#13388: start worker process 14960
+2016/12/06 13:42:29 [notice] 14960#9628: nginx/1.11.6
+2016/12/06 13:42:29 [notice] 14960#9628: nginx/1.11.6
+2016/12/06 13:42:29 [info] 14960#9628: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:42:29 [notice] 14960#9628: create thread 11996
+2016/12/06 13:42:29 [notice] 14960#9628: create thread 11996
+2016/12/06 13:42:29 [notice] 14960#9628: create thread 15356
+2016/12/06 13:42:29 [notice] 14960#9628: create thread 15356
+2016/12/06 13:42:29 [notice] 14960#9628: create thread 13008
+2016/12/06 13:42:29 [notice] 14960#9628: create thread 13008
+2016/12/06 13:42:44 [info] 14960#11996: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:42:44 [info] 14960#11996: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:44:12 [notice] 13896#10284: using the "select" event method
+2016/12/06 13:44:12 [notice] 13896#10284: using the "select" event method
+2016/12/06 13:44:12 [notice] 13896#10284: nginx/1.11.6
+2016/12/06 13:44:12 [notice] 13896#10284: nginx/1.11.6
+2016/12/06 13:44:12 [info] 13896#10284: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:44:12 [notice] 13896#10284: start worker processes
+2016/12/06 13:44:12 [notice] 13896#10284: start worker processes
+2016/12/06 13:44:12 [notice] 13896#10284: start worker process 12728
+2016/12/06 13:44:12 [notice] 13896#10284: start worker process 12728
+2016/12/06 13:44:12 [notice] 12728#15288: nginx/1.11.6
+2016/12/06 13:44:12 [notice] 12728#15288: nginx/1.11.6
+2016/12/06 13:44:12 [info] 12728#15288: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:44:12 [notice] 12728#15288: create thread 14184
+2016/12/06 13:44:12 [notice] 12728#15288: create thread 14184
+2016/12/06 13:44:12 [notice] 12728#15288: create thread 15364
+2016/12/06 13:44:12 [notice] 12728#15288: create thread 15364
+2016/12/06 13:44:12 [notice] 12728#15288: create thread 15368
+2016/12/06 13:44:12 [notice] 12728#15288: create thread 15368
+2016/12/06 13:45:08 [info] 12728#14184: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:45:08 [info] 12728#14184: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:47:39 [notice] 15828#15860: using the "select" event method
+2016/12/06 13:47:39 [notice] 15828#15860: using the "select" event method
+2016/12/06 13:47:39 [notice] 15828#15860: nginx/1.11.6
+2016/12/06 13:47:39 [notice] 15828#15860: nginx/1.11.6
+2016/12/06 13:47:39 [info] 15828#15860: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:47:39 [notice] 15828#15860: start worker processes
+2016/12/06 13:47:39 [notice] 15828#15860: start worker processes
+2016/12/06 13:47:39 [notice] 15828#15860: start worker process 15820
+2016/12/06 13:47:39 [notice] 15828#15860: start worker process 15820
+2016/12/06 13:47:39 [notice] 15820#13864: nginx/1.11.6
+2016/12/06 13:47:39 [notice] 15820#13864: nginx/1.11.6
+2016/12/06 13:47:39 [info] 15820#13864: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:47:39 [notice] 15820#13864: create thread 15896
+2016/12/06 13:47:39 [notice] 15820#13864: create thread 15896
+2016/12/06 13:47:39 [notice] 15820#13864: create thread 15888
+2016/12/06 13:47:39 [notice] 15820#13864: create thread 15888
+2016/12/06 13:47:39 [notice] 15820#13864: create thread 15884
+2016/12/06 13:47:39 [notice] 15820#13864: create thread 15884
+2016/12/06 13:47:56 [info] 15820#15896: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:47:56 [info] 15820#15896: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:49:56 [notice] 15400#15760: using the "select" event method
+2016/12/06 13:49:56 [notice] 15400#15760: using the "select" event method
+2016/12/06 13:49:56 [notice] 15400#15760: nginx/1.11.6
+2016/12/06 13:49:56 [notice] 15400#15760: nginx/1.11.6
+2016/12/06 13:49:56 [info] 15400#15760: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:49:56 [notice] 15400#15760: start worker processes
+2016/12/06 13:49:56 [notice] 15400#15760: start worker processes
+2016/12/06 13:49:56 [notice] 15400#15760: start worker process 12560
+2016/12/06 13:49:56 [notice] 15400#15760: start worker process 12560
+2016/12/06 13:49:56 [notice] 12560#11292: nginx/1.11.6
+2016/12/06 13:49:56 [notice] 12560#11292: nginx/1.11.6
+2016/12/06 13:49:56 [info] 12560#11292: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 13:49:56 [notice] 12560#11292: create thread 14740
+2016/12/06 13:49:56 [notice] 12560#11292: create thread 14740
+2016/12/06 13:49:56 [notice] 12560#11292: create thread 15600
+2016/12/06 13:49:56 [notice] 12560#11292: create thread 15600
+2016/12/06 13:49:56 [notice] 12560#11292: create thread 15692
+2016/12/06 13:49:56 [notice] 12560#11292: create thread 15692
+2016/12/06 13:50:17 [info] 12560#14740: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:50:17 [info] 12560#14740: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 13:51:08 [info] 12560#14740: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80

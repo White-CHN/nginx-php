@@ -1,0 +1,18 @@
+nginx需要监听80端口，但是在win7下，80端口会被其他程序占用了，所以启动nginx的时候失败，而出现上面的错误
+Win7下Nginx启动失败，80端口被占用
+80端口是用于HTTP的访问端口，被System占用了，那我们就去禁用它
+一：打开注册表：regedit
+二：找到：HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\HTTP
+三：找到一个REG_DWORD类型的项Start，将其改为0
+四：重启系统，System进程不会占用80端口
+Win7下Nginx启动失败，80端口被占用
+Win7下Nginx启动失败，80端口被占用
+如果 你安装SQL Server Reporting Service，请在服务中，把该服务设置为手动
+一：运行，services.msc
+二：找到SQL Server Reporting Service 设置成手动，确定
+Win7下Nginx启动失败，80端口被占用
+Win7下Nginx启动失败，80端口被占用
+4
+重启计算机，然后启动nginx，
+命令行cd到nginx的目录下，
+start nginx 
