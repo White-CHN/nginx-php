@@ -1318,3 +1318,116 @@ ginx+php/nginx-1.11.6/html" failed (123: The filename, directory name, or volume
 2016/12/06 13:50:17 [info] 12560#14740: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
 2016/12/06 13:50:17 [info] 12560#14740: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
 2016/12/06 13:51:08 [info] 12560#14740: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 14:25:20 [notice] 22216#22220: using the "select" event method
+2016/12/06 14:25:20 [notice] 22216#22220: using the "select" event method
+2016/12/06 14:25:20 [notice] 22216#22220: nginx/1.11.6
+2016/12/06 14:25:20 [notice] 22216#22220: nginx/1.11.6
+2016/12/06 14:25:20 [info] 22216#22220: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 14:25:20 [notice] 22216#22220: start worker processes
+2016/12/06 14:25:20 [notice] 22216#22220: start worker processes
+2016/12/06 14:25:20 [notice] 22216#22220: start worker process 22248
+2016/12/06 14:25:20 [notice] 22216#22220: start worker process 22248
+2016/12/06 14:25:20 [notice] 22248#22252: nginx/1.11.6
+2016/12/06 14:25:20 [notice] 22248#22252: nginx/1.11.6
+2016/12/06 14:25:20 [info] 22248#22252: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 14:25:20 [notice] 22248#22252: create thread 22272
+2016/12/06 14:25:20 [notice] 22248#22252: create thread 22272
+2016/12/06 14:25:20 [notice] 22248#22252: create thread 22276
+2016/12/06 14:25:20 [notice] 22248#22252: create thread 22276
+2016/12/06 14:25:20 [notice] 22248#22252: create thread 22280
+2016/12/06 14:25:20 [notice] 22248#22252: create thread 22280
+2016/12/06 14:25:22 [error] 22248#22272: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:25:22 [error] 22248#22272: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:25:22 [error] 22248#22272: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:25:22 [error] 22248#22272: *1 CreateFile() "E:/Git/nginx+php/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/06 14:25:22 [error] 22248#22272: *1 CreateFile() "E:/Git/nginx+php/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/06 14:25:22 [error] 22248#22272: *1 CreateFile() "E:/Git/nginx+php/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/06 14:25:31 [error] 22248#22272: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:25:31 [error] 22248#22272: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:25:31 [error] 22248#22272: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:25:37 [info] 22248#22272: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 14:25:37 [info] 22248#22272: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 14:25:58 [info] 22248#22272: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 14:27:34 [notice] 22296#22292: using the "select" event method
+2016/12/06 14:27:34 [notice] 22296#22292: using the "select" event method
+2016/12/06 14:27:34 [notice] 22296#22292: nginx/1.11.6
+2016/12/06 14:27:34 [notice] 22296#22292: nginx/1.11.6
+2016/12/06 14:27:34 [info] 22296#22292: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 14:27:34 [notice] 22296#22292: start worker processes
+2016/12/06 14:27:34 [notice] 22296#22292: start worker processes
+2016/12/06 14:27:34 [notice] 22296#22292: start worker process 21780
+2016/12/06 14:27:34 [notice] 22296#22292: start worker process 21780
+2016/12/06 14:27:34 [notice] 21780#22380: nginx/1.11.6
+2016/12/06 14:27:34 [notice] 21780#22380: nginx/1.11.6
+2016/12/06 14:27:34 [info] 21780#22380: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 14:27:34 [notice] 21780#22380: create thread 22384
+2016/12/06 14:27:34 [notice] 21780#22380: create thread 22384
+2016/12/06 14:27:34 [notice] 21780#22380: create thread 4796
+2016/12/06 14:27:34 [notice] 21780#22380: create thread 4796
+2016/12/06 14:27:34 [notice] 21780#22380: create thread 22004
+2016/12/06 14:27:34 [notice] 21780#22380: create thread 22004
+2016/12/06 14:27:49 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:49 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:49 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:51 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:51 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:51 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:52 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:52 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:52 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:52 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:52 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:52 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:56 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:56 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:56 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:59 [info] 22248#22272: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 14:27:59 [info] 22248#22272: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 14:27:59 [info] 22248#22272: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 14:27:59 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:59 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:27:59 [error] 22248#22272: *5 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:28:11 [notice] 21624#21496: using the "select" event method
+2016/12/06 14:28:11 [notice] 21624#21496: using the "select" event method
+2016/12/06 14:28:11 [notice] 21624#21496: nginx/1.11.6
+2016/12/06 14:28:11 [notice] 21624#21496: nginx/1.11.6
+2016/12/06 14:28:11 [info] 21624#21496: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 14:28:11 [notice] 21624#21496: start worker processes
+2016/12/06 14:28:11 [notice] 21624#21496: start worker processes
+2016/12/06 14:28:11 [notice] 21624#21496: start worker process 21016
+2016/12/06 14:28:11 [notice] 21624#21496: start worker process 21016
+2016/12/06 14:28:11 [notice] 21016#20704: nginx/1.11.6
+2016/12/06 14:28:11 [notice] 21016#20704: nginx/1.11.6
+2016/12/06 14:28:11 [info] 21016#20704: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 14:28:11 [notice] 21016#20704: create thread 22432
+2016/12/06 14:28:11 [notice] 21016#20704: create thread 22432
+2016/12/06 14:28:11 [notice] 21016#20704: create thread 20524
+2016/12/06 14:28:11 [notice] 21016#20704: create thread 20524
+2016/12/06 14:28:11 [notice] 21016#20704: create thread 22424
+2016/12/06 14:28:11 [notice] 21016#20704: create thread 22424
+2016/12/06 14:28:14 [error] 21016#22432: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:28:14 [error] 21016#22432: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:28:14 [error] 21016#22432: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:28:17 [error] 21016#22432: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:28:17 [error] 21016#22432: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:28:17 [error] 21016#22432: *1 "E:/Git/nginx+php/html/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2016/12/06 14:28:42 [info] 21016#22432: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 14:29:39 [notice] 20240#22400: using the "select" event method
+2016/12/06 14:29:39 [notice] 20240#22400: using the "select" event method
+2016/12/06 14:29:39 [notice] 20240#22400: nginx/1.11.6
+2016/12/06 14:29:39 [notice] 20240#22400: nginx/1.11.6
+2016/12/06 14:29:39 [info] 20240#22400: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 14:29:39 [notice] 20240#22400: start worker processes
+2016/12/06 14:29:39 [notice] 20240#22400: start worker processes
+2016/12/06 14:29:39 [notice] 20240#22400: start worker process 21680
+2016/12/06 14:29:39 [notice] 20240#22400: start worker process 21680
+2016/12/06 14:29:39 [notice] 21680#12180: nginx/1.11.6
+2016/12/06 14:29:39 [notice] 21680#12180: nginx/1.11.6
+2016/12/06 14:29:39 [info] 21680#12180: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 14:29:39 [notice] 21680#12180: create thread 20036
+2016/12/06 14:29:39 [notice] 21680#12180: create thread 20036
+2016/12/06 14:29:39 [notice] 21680#12180: create thread 20380
+2016/12/06 14:29:39 [notice] 21680#12180: create thread 20380
+2016/12/06 14:29:39 [notice] 21680#12180: create thread 21468
+2016/12/06 14:29:39 [notice] 21680#12180: create thread 21468
+2016/12/06 14:29:54 [info] 21680#20036: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
