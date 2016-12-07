@@ -1431,3 +1431,1242 @@ ginx+php/nginx-1.11.6/html" failed (123: The filename, directory name, or volume
 2016/12/06 14:29:39 [notice] 21680#12180: create thread 21468
 2016/12/06 14:29:39 [notice] 21680#12180: create thread 21468
 2016/12/06 14:29:54 [info] 21680#20036: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:03:28 [info] 21680#20036: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:06:09 [error] 21680#20036: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:6
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 6" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:06:09 [error] 21680#20036: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:6
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 6" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:06:09 [error] 21680#20036: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:6
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 6" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:06:26 [info] 21680#20036: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:06:26 [info] 21680#20036: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:06:26 [error] 21680#20036: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:06:26 [error] 21680#20036: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:06:26 [error] 21680#20036: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:06:28 [error] 21680#20036: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:06:28 [error] 21680#20036: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:06:28 [error] 21680#20036: *7 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:06:43 [info] 21680#20036: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:09:04 [notice] 25064#25104: using the "select" event method
+2016/12/06 17:09:04 [notice] 25064#25104: using the "select" event method
+2016/12/06 17:09:04 [notice] 25064#25104: nginx/1.11.6
+2016/12/06 17:09:04 [notice] 25064#25104: nginx/1.11.6
+2016/12/06 17:09:04 [info] 25064#25104: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:09:04 [notice] 25064#25104: start worker processes
+2016/12/06 17:09:04 [notice] 25064#25104: start worker processes
+2016/12/06 17:09:04 [notice] 25064#25104: start worker process 25268
+2016/12/06 17:09:04 [notice] 25064#25104: start worker process 25268
+2016/12/06 17:09:04 [notice] 25268#25272: nginx/1.11.6
+2016/12/06 17:09:04 [notice] 25268#25272: nginx/1.11.6
+2016/12/06 17:09:04 [info] 25268#25272: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:09:04 [notice] 25268#25272: create thread 24928
+2016/12/06 17:09:04 [notice] 25268#25272: create thread 24928
+2016/12/06 17:09:04 [notice] 25268#25272: create thread 23776
+2016/12/06 17:09:04 [notice] 25268#25272: create thread 23776
+2016/12/06 17:09:04 [notice] 25268#25272: create thread 25332
+2016/12/06 17:09:04 [notice] 25268#25272: create thread 25332
+2016/12/06 17:09:06 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:06 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:06 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:08 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:08 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:08 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:08 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:08 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:08 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:09 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:10 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:11 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:11 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:11 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:11 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:11 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:11 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:12 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:12 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:12 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:13 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:14 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:14 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:14 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:15 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:15 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:15 [error] 25268#24928: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:33 [notice] 25456#24940: using the "select" event method
+2016/12/06 17:09:33 [notice] 25456#24940: using the "select" event method
+2016/12/06 17:09:33 [notice] 25456#24940: nginx/1.11.6
+2016/12/06 17:09:33 [notice] 25456#24940: nginx/1.11.6
+2016/12/06 17:09:33 [info] 25456#24940: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:09:33 [notice] 25456#24940: start worker processes
+2016/12/06 17:09:33 [notice] 25456#24940: start worker processes
+2016/12/06 17:09:33 [notice] 25456#24940: start worker process 20380
+2016/12/06 17:09:33 [notice] 25456#24940: start worker process 20380
+2016/12/06 17:09:33 [notice] 20380#21468: nginx/1.11.6
+2016/12/06 17:09:33 [notice] 20380#21468: nginx/1.11.6
+2016/12/06 17:09:33 [info] 20380#21468: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:09:33 [notice] 20380#21468: create thread 14244
+2016/12/06 17:09:33 [notice] 20380#21468: create thread 14244
+2016/12/06 17:09:33 [notice] 20380#21468: create thread 24596
+2016/12/06 17:09:33 [notice] 20380#21468: create thread 24596
+2016/12/06 17:09:33 [notice] 20380#21468: create thread 12180
+2016/12/06 17:09:33 [notice] 20380#21468: create thread 12180
+2016/12/06 17:09:33 [error] 20380#14244: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:33 [error] 20380#14244: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:33 [error] 20380#14244: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:34 [error] 20380#14244: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:34 [error] 20380#14244: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:34 [error] 20380#14244: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:09:54 [info] 20380#14244: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:11:29 [notice] 25160#25128: using the "select" event method
+2016/12/06 17:11:29 [notice] 25160#25128: using the "select" event method
+2016/12/06 17:11:29 [notice] 25160#25128: nginx/1.11.6
+2016/12/06 17:11:29 [notice] 25160#25128: nginx/1.11.6
+2016/12/06 17:11:29 [info] 25160#25128: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:11:29 [notice] 25160#25128: start worker processes
+2016/12/06 17:11:29 [notice] 25160#25128: start worker processes
+2016/12/06 17:11:29 [notice] 25160#25128: start worker process 24248
+2016/12/06 17:11:29 [notice] 25160#25128: start worker process 24248
+2016/12/06 17:11:29 [notice] 24248#24936: nginx/1.11.6
+2016/12/06 17:11:29 [notice] 24248#24936: nginx/1.11.6
+2016/12/06 17:11:29 [info] 24248#24936: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:11:29 [notice] 24248#24936: create thread 24776
+2016/12/06 17:11:29 [notice] 24248#24936: create thread 24776
+2016/12/06 17:11:29 [notice] 24248#24936: create thread 24568
+2016/12/06 17:11:29 [notice] 24248#24936: create thread 24568
+2016/12/06 17:11:29 [notice] 24248#24936: create thread 24668
+2016/12/06 17:11:29 [notice] 24248#24936: create thread 24668
+2016/12/06 17:11:31 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:31 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:31 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:33 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:33 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:33 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:34 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:34 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:34 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:35 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:35 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:35 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:36 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:36 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:36 [error] 24248#24776: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:11:53 [info] 24248#24776: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:11:53 [info] 24248#24776: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:14:56 [notice] 24720#23156: using the "select" event method
+2016/12/06 17:14:56 [notice] 24720#23156: using the "select" event method
+2016/12/06 17:14:56 [notice] 24720#23156: nginx/1.11.6
+2016/12/06 17:14:56 [notice] 24720#23156: nginx/1.11.6
+2016/12/06 17:14:56 [info] 24720#23156: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:14:56 [notice] 24720#23156: start worker processes
+2016/12/06 17:14:56 [notice] 24720#23156: start worker processes
+2016/12/06 17:14:56 [notice] 24720#23156: start worker process 24184
+2016/12/06 17:14:56 [notice] 24720#23156: start worker process 24184
+2016/12/06 17:14:56 [notice] 24184#25244: nginx/1.11.6
+2016/12/06 17:14:56 [notice] 24184#25244: nginx/1.11.6
+2016/12/06 17:14:56 [info] 24184#25244: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:14:56 [notice] 24184#25244: create thread 22636
+2016/12/06 17:14:56 [notice] 24184#25244: create thread 22636
+2016/12/06 17:14:56 [notice] 24184#25244: create thread 23832
+2016/12/06 17:14:56 [notice] 24184#25244: create thread 23832
+2016/12/06 17:14:56 [notice] 24184#25244: create thread 25192
+2016/12/06 17:14:56 [notice] 24184#25244: create thread 25192
+2016/12/06 17:14:56 [error] 24184#22636: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:14:56 [error] 24184#22636: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:14:56 [error] 24184#22636: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:15:08 [info] 24184#22636: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:23:40 [error] 24184#22636: *4 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:23:40 [error] 24184#22636: *4 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:23:40 [error] 24184#22636: *4 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:23:42 [error] 24184#22636: *4 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:23:42 [error] 24184#22636: *4 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:23:42 [error] 24184#22636: *4 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:23:50 [info] 24184#22636: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:23:51 [info] 24184#22636: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:26:21 [notice] 24724#24024: using the "select" event method
+2016/12/06 17:26:21 [notice] 24724#24024: using the "select" event method
+2016/12/06 17:26:21 [notice] 24724#24024: nginx/1.11.6
+2016/12/06 17:26:21 [notice] 24724#24024: nginx/1.11.6
+2016/12/06 17:26:21 [info] 24724#24024: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:26:21 [notice] 24724#24024: start worker processes
+2016/12/06 17:26:21 [notice] 24724#24024: start worker processes
+2016/12/06 17:26:21 [notice] 24724#24024: start worker process 25496
+2016/12/06 17:26:21 [notice] 24724#24024: start worker process 25496
+2016/12/06 17:26:21 [notice] 25496#24928: nginx/1.11.6
+2016/12/06 17:26:21 [notice] 25496#24928: nginx/1.11.6
+2016/12/06 17:26:21 [info] 25496#24928: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:26:21 [notice] 25496#24928: create thread 24432
+2016/12/06 17:26:21 [notice] 25496#24928: create thread 24432
+2016/12/06 17:26:21 [notice] 25496#24928: create thread 24116
+2016/12/06 17:26:21 [notice] 25496#24928: create thread 24116
+2016/12/06 17:26:21 [notice] 25496#24928: create thread 24596
+2016/12/06 17:26:21 [notice] 25496#24928: create thread 24596
+2016/12/06 17:26:24 [error] 25496#24432: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:26:24 [error] 25496#24432: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:26:24 [error] 25496#24432: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:26:26 [error] 25496#24432: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:26:26 [error] 25496#24432: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:26:26 [error] 25496#24432: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:26:35 [info] 25496#24432: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:26:35 [info] 25496#24432: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:28:29 [notice] 25924#25856: using the "select" event method
+2016/12/06 17:28:29 [notice] 25924#25856: using the "select" event method
+2016/12/06 17:28:29 [notice] 25924#25856: nginx/1.11.6
+2016/12/06 17:28:29 [notice] 25924#25856: nginx/1.11.6
+2016/12/06 17:28:29 [info] 25924#25856: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:28:29 [notice] 25924#25856: start worker processes
+2016/12/06 17:28:29 [notice] 25924#25856: start worker processes
+2016/12/06 17:28:29 [notice] 25924#25856: start worker process 21124
+2016/12/06 17:28:29 [notice] 25924#25856: start worker process 21124
+2016/12/06 17:28:29 [notice] 21124#25300: nginx/1.11.6
+2016/12/06 17:28:29 [notice] 21124#25300: nginx/1.11.6
+2016/12/06 17:28:29 [info] 21124#25300: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:28:29 [notice] 21124#25300: create thread 26308
+2016/12/06 17:28:29 [notice] 21124#25300: create thread 26308
+2016/12/06 17:28:29 [notice] 21124#25300: create thread 24812
+2016/12/06 17:28:29 [notice] 21124#25300: create thread 24812
+2016/12/06 17:28:29 [notice] 21124#25300: create thread 25012
+2016/12/06 17:28:29 [notice] 21124#25300: create thread 25012
+2016/12/06 17:28:32 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:28:32 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:28:32 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:28:35 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:28:35 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:28:35 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:28:45 [info] 21124#26308: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:28:45 [info] 21124#26308: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:29:03 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:03 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:03 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:04 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:04 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:04 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:04 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:04 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:04 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:04 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:04 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:04 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:05 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:05 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:05 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:05 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:05 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:05 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:12 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:12 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:12 [error] 21124#26308: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:12 [error] 21124#26308: *1 FastCGI sent in stderr: ": Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:12 [error] 21124#26308: *1 FastCGI sent in stderr: ": Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:12 [error] 21124#26308: *1 FastCGI sent in stderr: ": Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:29:32 [info] 21124#26308: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:36:47 [error] 21124#26308: *14 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:36:47 [error] 21124#26308: *14 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:36:47 [error] 21124#26308: *14 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:36:47 [error] 21124#26308: *14 FastCGI sent in stderr: ": Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:36:47 [error] 21124#26308: *14 FastCGI sent in stderr: ": Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:36:47 [error] 21124#26308: *14 FastCGI sent in stderr: ": Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:36:54 [error] 21124#26308: *14 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:36:54 [error] 21124#26308: *14 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:36:54 [error] 21124#26308: *14 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:36:54 [error] 21124#26308: *14 FastCGI sent in stderr: ": Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:36:54 [error] 21124#26308: *14 FastCGI sent in stderr: ": Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:36:54 [error] 21124#26308: *14 FastCGI sent in stderr: ": Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:37:04 [info] 21124#26308: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:37:04 [info] 21124#26308: *17 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:37:04 [error] 21124#26308: *14 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:37:04 [error] 21124#26308: *14 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:37:04 [error] 21124#26308: *14 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:37:17 [info] 21124#26308: *20 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 17:39:20 [notice] 25696#26480: using the "select" event method
+2016/12/06 17:39:20 [notice] 25696#26480: using the "select" event method
+2016/12/06 17:39:20 [notice] 25696#26480: nginx/1.11.6
+2016/12/06 17:39:20 [notice] 25696#26480: nginx/1.11.6
+2016/12/06 17:39:20 [info] 25696#26480: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:39:20 [notice] 25696#26480: start worker processes
+2016/12/06 17:39:20 [notice] 25696#26480: start worker processes
+2016/12/06 17:39:20 [notice] 25696#26480: start worker process 24800
+2016/12/06 17:39:20 [notice] 25696#26480: start worker process 24800
+2016/12/06 17:39:20 [notice] 24800#27168: nginx/1.11.6
+2016/12/06 17:39:20 [notice] 24800#27168: nginx/1.11.6
+2016/12/06 17:39:20 [info] 24800#27168: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:39:20 [notice] 24800#27168: create thread 26164
+2016/12/06 17:39:20 [notice] 24800#27168: create thread 26164
+2016/12/06 17:39:20 [notice] 24800#27168: create thread 26636
+2016/12/06 17:39:20 [notice] 24800#27168: create thread 26636
+2016/12/06 17:39:20 [notice] 24800#27168: create thread 26888
+2016/12/06 17:39:20 [notice] 24800#27168: create thread 26888
+2016/12/06 17:39:24 [error] 24800#26164: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:24 [error] 24800#26164: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:24 [error] 24800#26164: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:26 [error] 24800#26164: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:26 [error] 24800#26164: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:26 [error] 24800#26164: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:35 [notice] 24832#4948: using the "select" event method
+2016/12/06 17:39:35 [notice] 24832#4948: using the "select" event method
+2016/12/06 17:39:35 [notice] 24832#4948: nginx/1.11.6
+2016/12/06 17:39:35 [notice] 24832#4948: nginx/1.11.6
+2016/12/06 17:39:35 [info] 24832#4948: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:39:35 [notice] 24832#4948: start worker processes
+2016/12/06 17:39:35 [notice] 24832#4948: start worker processes
+2016/12/06 17:39:35 [notice] 24832#4948: start worker process 25048
+2016/12/06 17:39:35 [notice] 24832#4948: start worker process 25048
+2016/12/06 17:39:35 [notice] 25048#24932: nginx/1.11.6
+2016/12/06 17:39:35 [notice] 25048#24932: nginx/1.11.6
+2016/12/06 17:39:35 [info] 25048#24932: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 17:39:35 [notice] 25048#24932: create thread 23072
+2016/12/06 17:39:35 [notice] 25048#24932: create thread 23072
+2016/12/06 17:39:35 [notice] 25048#24932: create thread 26144
+2016/12/06 17:39:35 [notice] 25048#24932: create thread 26144
+2016/12/06 17:39:35 [notice] 25048#24932: create thread 23620
+2016/12/06 17:39:35 [notice] 25048#24932: create thread 23620
+2016/12/06 17:39:42 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:42 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:42 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:42 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:42 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:42 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:42 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:42 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:42 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:39:43 [error] 25048#23072: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 17:40:20 [info] 25048#23072: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 18:23:43 [notice] 5496#4588: using the "select" event method
+2016/12/06 18:23:43 [notice] 5496#4588: using the "select" event method
+2016/12/06 18:23:43 [notice] 5496#4588: nginx/1.11.6
+2016/12/06 18:23:43 [notice] 5496#4588: nginx/1.11.6
+2016/12/06 18:23:43 [info] 5496#4588: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 18:23:43 [notice] 5496#4588: start worker processes
+2016/12/06 18:23:43 [notice] 5496#4588: start worker processes
+2016/12/06 18:23:43 [notice] 5496#4588: start worker process 5732
+2016/12/06 18:23:43 [notice] 5496#4588: start worker process 5732
+2016/12/06 18:23:43 [notice] 5732#2436: nginx/1.11.6
+2016/12/06 18:23:43 [notice] 5732#2436: nginx/1.11.6
+2016/12/06 18:23:43 [info] 5732#2436: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/06 18:23:43 [notice] 5732#2436: create thread 5424
+2016/12/06 18:23:43 [notice] 5732#2436: create thread 5424
+2016/12/06 18:23:43 [notice] 5732#2436: create thread 4320
+2016/12/06 18:23:43 [notice] 5732#2436: create thread 4320
+2016/12/06 18:23:43 [notice] 5732#2436: create thread 4744
+2016/12/06 18:23:43 [notice] 5732#2436: create thread 4744
+2016/12/06 18:23:49 [error] 5732#5424: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:23:49 [error] 5732#5424: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:23:49 [error] 5732#5424: *1 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:23:49 [error] 5732#5424: *1 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/06 18:23:49 [error] 5732#5424: *1 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/06 18:23:49 [error] 5732#5424: *1 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/06 18:24:00 [info] 5732#5424: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 18:24:00 [info] 5732#5424: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 18:27:09 [error] 5732#5424: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:27:09 [error] 5732#5424: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:27:09 [error] 5732#5424: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:27:25 [info] 5732#5424: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 18:27:25 [info] 5732#5424: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 18:27:25 [info] 5732#5424: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 18:27:25 [info] 5732#5424: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 18:30:23 [error] 5732#5424: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:30:23 [error] 5732#5424: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:30:23 [error] 5732#5424: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in E:\Git\nginx-php\html\index.php:7
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:30:33 [info] 5732#5424: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 18:30:33 [info] 5732#5424: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 18:30:33 [info] 5732#5424: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 18:30:35 [error] 5732#5424: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:30:35 [error] 5732#5424: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:30:35 [error] 5732#5424: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/06 18:31:29 [info] 5732#5424: *17 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/06 18:31:29 [info] 5732#5424: *11 client 127.0.0.1 closed keepalive connection
+2016/12/06 18:31:29 [info] 5732#5424: *18 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 09:10:32 [notice] 6192#6620: using the "select" event method
+2016/12/07 09:10:32 [notice] 6192#6620: using the "select" event method
+2016/12/07 09:10:32 [notice] 6192#6620: nginx/1.11.6
+2016/12/07 09:10:32 [notice] 6192#6620: nginx/1.11.6
+2016/12/07 09:10:32 [info] 6192#6620: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/07 09:10:32 [notice] 6192#6620: start worker processes
+2016/12/07 09:10:32 [notice] 6192#6620: start worker processes
+2016/12/07 09:10:32 [notice] 6192#6620: start worker process 8104
+2016/12/07 09:10:32 [notice] 6192#6620: start worker process 8104
+2016/12/07 09:10:32 [notice] 8104#8428: nginx/1.11.6
+2016/12/07 09:10:32 [notice] 8104#8428: nginx/1.11.6
+2016/12/07 09:10:32 [info] 8104#8428: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/07 09:10:32 [notice] 8104#8428: create thread 8452
+2016/12/07 09:10:32 [notice] 8104#8428: create thread 8452
+2016/12/07 09:10:32 [notice] 8104#8428: create thread 8412
+2016/12/07 09:10:32 [notice] 8104#8428: create thread 8412
+2016/12/07 09:10:32 [notice] 8104#8428: create thread 8480
+2016/12/07 09:10:32 [notice] 8104#8428: create thread 8480
+2016/12/07 09:10:41 [info] 8104#8452: *1 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:10:45 [error] 8104#8452: *3 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:10:45 [error] 8104#8452: *3 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:10:45 [error] 8104#8452: *3 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:10:45 [error] 8104#8452: *3 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/07 09:10:45 [error] 8104#8452: *3 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/07 09:10:45 [error] 8104#8452: *3 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/07 09:15:06 [error] 8104#8452: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:15:06 [error] 8104#8452: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:15:06 [error] 8104#8452: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:15:10 [error] 8104#8452: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:15:10 [error] 8104#8452: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:15:10 [error] 8104#8452: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:15:19 [info] 8104#8452: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 09:15:20 [error] 8104#8452: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:15:20 [error] 8104#8452: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:15:20 [error] 8104#8452: *5 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:37:33 [notice] 7576#7580: using the "select" event method
+2016/12/07 09:37:33 [notice] 7576#7580: using the "select" event method
+2016/12/07 09:37:33 [notice] 7576#7580: nginx/1.11.6
+2016/12/07 09:37:33 [notice] 7576#7580: nginx/1.11.6
+2016/12/07 09:37:33 [info] 7576#7580: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/07 09:37:33 [notice] 7576#7580: start worker processes
+2016/12/07 09:37:33 [notice] 7576#7580: start worker processes
+2016/12/07 09:37:33 [notice] 7576#7580: start worker process 7752
+2016/12/07 09:37:33 [notice] 7576#7580: start worker process 7752
+2016/12/07 09:37:34 [notice] 7752#7756: nginx/1.11.6
+2016/12/07 09:37:34 [notice] 7752#7756: nginx/1.11.6
+2016/12/07 09:37:34 [info] 7752#7756: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/07 09:37:34 [notice] 7752#7756: create thread 7792
+2016/12/07 09:37:34 [notice] 7752#7756: create thread 7792
+2016/12/07 09:37:34 [notice] 7752#7756: create thread 7796
+2016/12/07 09:37:34 [notice] 7752#7756: create thread 7796
+2016/12/07 09:37:34 [notice] 7752#7756: create thread 7800
+2016/12/07 09:37:34 [notice] 7752#7756: create thread 7800
+2016/12/07 09:37:40 [error] 7752#7792: *1 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:37:40 [error] 7752#7792: *1 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:37:40 [error] 7752#7792: *1 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in E:\Git\nginx-php\html\index.php on line 7" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:37:41 [error] 7752#7792: *1 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/07 09:37:41 [error] 7752#7792: *1 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/07 09:37:41 [error] 7752#7792: *1 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/07 09:37:49 [info] 7752#7792: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 09:39:36 [error] 7752#7792: *4 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:39:36 [error] 7752#7792: *4 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:39:36 [error] 7752#7792: *4 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:40:03 [info] 7752#7792: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 09:48:09 [error] 7752#7792: *7 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:48:09 [error] 7752#7792: *7 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:48:09 [error] 7752#7792: *7 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:48:26 [info] 7752#7792: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 09:48:49 [error] 7752#7792: *7 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:48:49 [error] 7752#7792: *7 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:48:49 [error] 7752#7792: *7 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:57:15 [error] 7752#7792: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:57:15 [error] 7752#7792: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:57:15 [error] 7752#7792: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:57:18 [error] 7752#7792: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:57:18 [error] 7752#7792: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:57:18 [error] 7752#7792: *11 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 09:57:27 [info] 7752#7792: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 10:03:09 [error] 7752#7792: *15 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:03:09 [error] 7752#7792: *15 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:03:09 [error] 7752#7792: *15 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:03:14 [error] 7752#7792: *15 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:03:14 [error] 7752#7792: *15 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:03:14 [error] 7752#7792: *15 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:03:21 [info] 7752#7792: *17 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 10:04:12 [error] 7752#7792: *15 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:04:12 [error] 7752#7792: *15 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:04:12 [error] 7752#7792: *15 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:04:34 [info] 7752#7792: *20 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 10:05:35 [error] 7752#7792: *21 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:05:35 [error] 7752#7792: *21 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:05:35 [error] 7752#7792: *21 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:05:44 [info] 7752#7792: *22 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 10:05:44 [info] 7752#7792: *24 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 10:06:37 [error] 7752#7792: *21 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:06:37 [error] 7752#7792: *21 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:06:37 [error] 7752#7792: *21 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:07:31 [info] 7752#7792: *26 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 10:13:57 [error] 7752#7792: *27 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:13:57 [error] 7752#7792: *27 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:13:57 [error] 7752#7792: *27 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:14:15 [info] 7752#7792: *28 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 10:14:15 [info] 7752#7792: *30 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 10:32:06 [error] 7752#7792: *31 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3
+PHP Fatal error:  Uncaught Error: Call to a member function character_set_name() on boolean in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:32:06 [error] 7752#7792: *31 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3
+PHP Fatal error:  Uncaught Error: Call to a member function character_set_name() on boolean in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:32:06 [error] 7752#7792: *31 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 3
+PHP Fatal error:  Uncaught Error: Call to a member function character_set_name() on boolean in E:\Git\nginx-php\html\index.php:4
+Stack trace:
+#0 {main}
+  thrown in E:\Git\nginx-php\html\index.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:32:19 [info] 7752#7792: *32 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 10:32:19 [info] 7752#7792: *34 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 10:33:09 [error] 7752#7792: *31 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_character_set_name() expects parameter 1 to be mysqli, boolean given in E:\Git\nginx-php\html\index.php on line 5" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:33:09 [error] 7752#7792: *31 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_character_set_name() expects parameter 1 to be mysqli, boolean given in E:\Git\nginx-php\html\index.php on line 5" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:33:09 [error] 7752#7792: *31 FastCGI sent in stderr: "PHP Warning:  mysqli_connect(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+ in E:\Git\nginx-php\html\index.php on line 4
+PHP Warning:  mysqli_character_set_name() expects parameter 1 to be mysqli, boolean given in E:\Git\nginx-php\html\index.php on line 5" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 10:33:31 [info] 7752#7792: *36 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 11:29:36 [notice] 8744#8740: using the "select" event method
+2016/12/07 11:29:36 [notice] 8744#8740: using the "select" event method
+2016/12/07 11:29:36 [notice] 8744#8740: nginx/1.11.6
+2016/12/07 11:29:36 [notice] 8744#8740: nginx/1.11.6
+2016/12/07 11:29:36 [info] 8744#8740: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/07 11:29:36 [notice] 8744#8740: start worker processes
+2016/12/07 11:29:36 [notice] 8744#8740: start worker processes
+2016/12/07 11:29:36 [notice] 8744#8740: start worker process 8700
+2016/12/07 11:29:36 [notice] 8744#8740: start worker process 8700
+2016/12/07 11:29:36 [notice] 8700#8860: nginx/1.11.6
+2016/12/07 11:29:36 [notice] 8700#8860: nginx/1.11.6
+2016/12/07 11:29:36 [info] 8700#8860: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/07 11:29:36 [notice] 8700#8860: create thread 8712
+2016/12/07 11:29:36 [notice] 8700#8860: create thread 8712
+2016/12/07 11:29:36 [notice] 8700#8860: create thread 8692
+2016/12/07 11:29:36 [notice] 8700#8860: create thread 8692
+2016/12/07 11:29:36 [notice] 8700#8860: create thread 8628
+2016/12/07 11:29:36 [notice] 8700#8860: create thread 8628
+2016/12/07 11:29:40 [error] 8700#8712: *1 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/07 11:29:40 [error] 8700#8712: *1 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/07 11:29:40 [error] 8700#8712: *1 CreateFile() "E:/Git/nginx-php/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2016/12/07 11:30:10 [info] 8700#8712: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 11:30:10 [info] 8700#8712: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 11:30:10 [info] 8700#8712: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 11:33:16 [error] 8700#8712: *14 FastCGI sent in stderr: "PHP Notice:  Undefined index: HTTP_REFERER in E:\Git\nginx-php\html\index.php on line 13" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 11:33:16 [error] 8700#8712: *14 FastCGI sent in stderr: "PHP Notice:  Undefined index: HTTP_REFERER in E:\Git\nginx-php\html\index.php on line 13" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 11:33:16 [error] 8700#8712: *14 FastCGI sent in stderr: "PHP Notice:  Undefined index: HTTP_REFERER in E:\Git\nginx-php\html\index.php on line 13" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 11:34:17 [info] 8700#8712: *16 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 11:46:33 [error] 8700#8712: *17 FastCGI sent in stderr: "PHP Notice:  Undefined index: HTTP_REFERER in E:\Git\nginx-php\html\index.php on line 13" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 11:46:33 [error] 8700#8712: *17 FastCGI sent in stderr: "PHP Notice:  Undefined index: HTTP_REFERER in E:\Git\nginx-php\html\index.php on line 13" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 11:46:33 [error] 8700#8712: *17 FastCGI sent in stderr: "PHP Notice:  Undefined index: HTTP_REFERER in E:\Git\nginx-php\html\index.php on line 13" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 11:46:45 [info] 8700#8712: *19 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:45:04 [info] 8700#8712: *22 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:47:11 [info] 8700#8712: *24 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:47:11 [info] 8700#8712: *26 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:48:13 [info] 8700#8712: *28 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:48:40 [info] 8700#8712: *30 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:52:40 [info] 8700#8712: *32 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:52:40 [info] 8700#8712: *34 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:54:26 [error] 8700#8712: *35 FastCGI sent in stderr: "PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in E:\Git\nginx-php\html\index.php on line 28" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 12:54:26 [error] 8700#8712: *35 FastCGI sent in stderr: "PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in E:\Git\nginx-php\html\index.php on line 28" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 12:54:26 [error] 8700#8712: *35 FastCGI sent in stderr: "PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in E:\Git\nginx-php\html\index.php on line 28" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 12:55:26 [info] 8700#8712: *36 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:55:26 [info] 8700#8712: *38 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:55:42 [error] 8700#8712: *39 FastCGI sent in stderr: "PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in E:\Git\nginx-php\html\index.php on line 28" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 12:55:42 [error] 8700#8712: *39 FastCGI sent in stderr: "PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in E:\Git\nginx-php\html\index.php on line 28" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 12:55:42 [error] 8700#8712: *39 FastCGI sent in stderr: "PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in E:\Git\nginx-php\html\index.php on line 28" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 12:56:22 [info] 8700#8712: *40 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:56:22 [info] 8700#8712: *42 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:59:22 [info] 8700#8712: *44 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 12:59:22 [info] 8700#8712: *46 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 13:01:22 [info] 8700#8712: *48 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 13:01:22 [info] 8700#8712: *50 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 13:04:15 [info] 8700#8712: *52 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 13:04:15 [info] 8700#8712: *54 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 13:04:40 [error] 8700#8712: *51 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in E:\Git\nginx-php\html\index.php on line 27" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 13:04:40 [error] 8700#8712: *51 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in E:\Git\nginx-php\html\index.php on line 27" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 13:04:40 [error] 8700#8712: *51 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in E:\Git\nginx-php\html\index.php on line 27" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2016/12/07 13:04:59 [info] 8700#8712: *56 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 13:05:22 [info] 8700#8712: *59 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 13:06:32 [info] 8700#8712: *61 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 13:06:32 [info] 8700#8712: *63 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 14:04:13 [info] 8700#8712: *68 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 14:04:13 [info] 8700#8712: *70 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2016/12/07 14:32:51 [notice] 18624#16392: using the "select" event method
+2016/12/07 14:32:51 [notice] 18624#16392: using the "select" event method
+2016/12/07 14:32:51 [notice] 18624#16392: nginx/1.11.6
+2016/12/07 14:32:51 [notice] 18624#16392: nginx/1.11.6
+2016/12/07 14:32:51 [info] 18624#16392: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/07 14:32:51 [notice] 18624#16392: start worker processes
+2016/12/07 14:32:51 [notice] 18624#16392: start worker processes
+2016/12/07 14:32:51 [notice] 18624#16392: start worker process 18156
+2016/12/07 14:32:51 [notice] 18624#16392: start worker process 18156
+2016/12/07 14:32:51 [notice] 18156#8740: nginx/1.11.6
+2016/12/07 14:32:51 [notice] 18156#8740: nginx/1.11.6
+2016/12/07 14:32:51 [info] 18156#8740: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2016/12/07 14:32:51 [notice] 18156#8740: create thread 18356
+2016/12/07 14:32:51 [notice] 18156#8740: create thread 18356
+2016/12/07 14:32:51 [notice] 18156#8740: create thread 8748
+2016/12/07 14:32:51 [notice] 18156#8740: create thread 8748
+2016/12/07 14:32:51 [notice] 18156#8740: create thread 16916
+2016/12/07 14:32:51 [notice] 18156#8740: create thread 16916
